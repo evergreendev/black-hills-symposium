@@ -24,6 +24,7 @@ const config: Config = {
         'primary-900':'#11140F',
       },
       backgroundImage: {
+        "dark": "linear-gradient(180deg, rgba(13, 14, 12, 0.85) 76%, rgba(13, 14, 12, 0) 100%);",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
