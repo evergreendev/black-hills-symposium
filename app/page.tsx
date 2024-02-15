@@ -5,16 +5,16 @@ import exhibitorImg from "../public/exhibitor.jpg";
 import hotelImg from "../public/hotel-info.jpg"
 import gettingAroundImg from "../public/getting-around.jpg";
 import faqImg from "../public/faq.jpg";
+import leftImg from "../public/talking.jpg"
 import Link from "next/link";
 import NavCard from "@/app/components/NavCard/NavCard";
+import ImageAndText from "@/app/components/ImageAndText";
 
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center overflow-x-hidden relative">
             <Header/>
-            <div className="max-h-full h-[1100px] w-full bg-hero bg-cover bg-center">
-
-            </div>
+            <div className="max-h-full h-[1100px] w-full bg-hero bg-cover bg-center"/>
             <div
                 className="w-full max-w-screen-xl bg-primary-800 bg-opacity-90 md:-translate-y-1/2 md:flex justify-between">
                 <div className="p-4">
@@ -42,6 +42,23 @@ export default function Home() {
                 <NavCard img={hotelImg} title="Hotel Information" url="/hotel-info"/>
                 <NavCard img={gettingAroundImg} title="Getting Around" url="/getting-around"/>
                 <NavCard img={faqImg} title="FAQ" url="/faq"/>
+            </div>
+            <div className="max-w-screen-xl text-primary-900 mt-9">
+                <ImageAndText img={leftImg}>
+                    <p className="mb-3">
+                        The Black Hills Defense and Industry Symposium is coming to theBox, April 10 & 11, 2024. This
+                        annual event will bring leaders of academia, research, industry, military and the Black Hills
+                        communities together for meaningful dialogue on the importance of defense investment in western
+                        South Dakota. Leaders will discuss how attendees can contribute to solutions for stronger
+                        national defense and bolstered regional economic development.
+                    </p>
+                    <p>
+                        The 2024 Symposium will feature high level discussion and breakout sessions regarding PFOS/PFOA
+                        and Critical Minerals from South Dakota Mines, Design and Construction Opportunities from the
+                        Defense Industry in the Region, SBIR Successes, helpful information about doing business with
+                        the Government, along with important information regarding the B21 status.
+                    </p>
+                </ImageAndText>
             </div>
         </main>
     );
