@@ -4,7 +4,7 @@ import exhibitorImg from "../public/exhibitor.jpg";
 import hotelImg from "../public/hotel-info.jpg"
 import gettingAroundImg from "../public/getting-around.jpg";
 import faqImg from "../public/faq.jpg";
-import speakerImg from "../public/speaker.jpg";
+import speakerImg from "../public/joseph-wright.jpg";
 import Link from "next/link";
 import NavCard from "@/app/components/NavCard/NavCard";
 import QuoteBlock from "@/app/components/QuoteBlock";

@@ -26,6 +26,7 @@ const config: Config = {
         'straw-400': '#e4d4a3'
       },
       backgroundImage: {
+        "logo": "url('../public/')",
         "hero": "url('../public/home-hero.png')",
         "dark": "linear-gradient(180deg, rgba(13, 14, 12, 0.85) 76%, rgba(13, 14, 12, 0) 100%);",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

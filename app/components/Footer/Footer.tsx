@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return <div className="bg-primary-600 border-t-4 border-primary-500">
-        <div className="max-w-screen-lg m-auto flex justify-center p-7">
+        <div className="max-w-screen-md m-auto flex justify-between p-7">
             <Link href="https://blackhillswire.com/">
                 <Image className="w-52 p-4" src={wireLogo} alt="Black Hills Wire"/>
             </Link>
@@ -14,6 +14,14 @@ const Footer = () => {
             </Link>
         </div>
 
+        <div className="max-w-screen-xl m-auto p-1">
+            <p className="italic text-xs">
+                Copyright
+                 &copy; {
+                new Date().getFullYear()
+            }, Black Hills Military Advisory Coalition
+            </p>
+        </div>
 
     </div>
 }
