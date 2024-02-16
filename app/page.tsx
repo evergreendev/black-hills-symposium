@@ -15,7 +15,6 @@ import QuoteBlock from "@/app/components/QuoteBlock";
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center overflow-x-hidden relative">
-            <Header/>
             <div className="max-h-full h-[1100px] w-full bg-hero bg-cover bg-center"/>
             <div
                 className="w-full max-w-screen-xl bg-primary-800 bg-opacity-90 md:-translate-y-1/2 md:flex justify-between">

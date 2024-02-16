@@ -73,7 +73,7 @@ const Header = () => {
                 <button onClick={() => {
                     setMobileMenuIsOpen(!mobileMenuIsOpen);
                 }}
-                        className="md:hidden bg-transparent font-bold top-2 right-2 absolute size-10 opacity-60 hover:opacity-100 z-50">
+                        className="md:hidden font-bold top-2 right-2 absolute size-10 hover:opacity-100 z-50 bg-primary-800">
                     {
                         mobileMenuIsOpen ?
                             <FontAwesomeIcon size="lg" icon={faCircleXmark}/> :
@@ -81,7 +81,7 @@ const Header = () => {
                     }
 
                 </button>
-                <div className="bg-dark h-24 w-full absolute bottom-0 translate-y-full z-0"></div>
+                <div className="bg-dark h-24 w-full absolute bottom-0 translate-y-full z-10"></div>
             </header>
             <nav className={`h-full absolute top-0 w-full z-40 pt-12 transition-transform ${
                 mobileMenuIsOpen ? "" : "translate-x-full md:hidden"
