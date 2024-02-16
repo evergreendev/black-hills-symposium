@@ -5,10 +5,12 @@ import exhibitorImg from "../public/exhibitor.jpg";
 import hotelImg from "../public/hotel-info.jpg"
 import gettingAroundImg from "../public/getting-around.jpg";
 import faqImg from "../public/faq.jpg";
-import leftImg from "../public/talking.jpg"
+import leftImg from "../public/talking.jpg";
+import speakerImg from "../public/speaker.jpg";
 import Link from "next/link";
 import NavCard from "@/app/components/NavCard/NavCard";
 import ImageAndText from "@/app/components/ImageAndText";
+import QuoteBlock from "@/app/components/QuoteBlock";
 
 export default function Home() {
     return (
@@ -59,6 +61,24 @@ export default function Home() {
                         the Government, along with important information regarding the B21 status.
                     </p>
                 </ImageAndText>
+            </div>
+            <div className="max-w-screen-xl text-primary-900 mt-16">
+                <QuoteBlock img={speakerImg}>
+                    <p className="text-xl mb-5">
+                        “We hope that you find great value in the exceptional presenters and content our planning
+                        committee has worked so hard to deliver. This event will welcome business, academic, and
+                        military leaders from our region and across the globe. We hope you dive right in and engage in
+                        the exchange of ideas that have been planned, so that we can all benefit from your attendance. I
+                        am certain, that this event will allow all who attend to gain a greater understanding of the
+                        challenges our fighting women and men face, and how we as a community and country, can work
+                        together to ensure lasting freedom.”
+                    </p>
+                    <p className="text-xs font-bold">
+                        Joseph Wright, J.D.<br/>
+                        Associate Vice President for Research Economic Development<br/>
+                        South Dakota Mines
+                    </p>
+                </QuoteBlock>
             </div>
         </main>
     );
