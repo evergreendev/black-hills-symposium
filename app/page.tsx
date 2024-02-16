@@ -8,6 +8,13 @@ import speakerImg from "../public/speaker.jpg";
 import Link from "next/link";
 import NavCard from "@/app/components/NavCard/NavCard";
 import QuoteBlock from "@/app/components/QuoteBlock";
+import {Metadata} from "next";
+
+
+export const metadata: Metadata = {
+    title: "Black Hills Defense & Industry Symposium",
+    description: "The Black Hills Defense and Industry Symposium is coming to theBox, April 10 & 11, 2024. This annual event will bring leaders of academia, research, industry, military and the Black Hills communities together for meaningful dialogue on the importance of defense investment in western South Dakota. Leaders will discuss how attendees can contribute to solutions for stronger national defense and bolstered regional economic development."
+}
 
 export default function Home() {
     return (
