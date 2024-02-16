@@ -22,6 +22,8 @@ const config: Config = {
         'primary-700':'#1A2312',
         'primary-800':'#131A0D',
         'primary-900':'#11140F',
+        'straw-500': '#beb188',
+        'straw-400': '#e4d4a3'
       },
       backgroundImage: {
         "hero": "url('../public/home-hero.png')",

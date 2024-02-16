@@ -1,11 +1,12 @@
 'use client'
 import {inika} from "@/app/fonts";
 import Image from "next/image";
-import logoImg from "../../../public/logo.png"
+import logoImg from "../../../public/bhmac-logo.png"
 import NavItem from "@/app/components/Header/NavItem";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCircleXmark, faBars} from "@fortawesome/free-solid-svg-icons";
 import {useState} from "react";
+import Link from "next/link";
 
 const navArr = [
     {
@@ -51,14 +52,14 @@ const Header = () => {
         <>
             <header className="bg-primary-800 flex justify-end items-center w-full lg:h-[125px] relative">
                 <div className="flex flex-col lg:flex-row justify-between w-full items-center max-w-[1800px]">
-                    <div className="relative lg:pl-44 lg:mr-28 flex overflow-hidden lg:overflow-visible">
-                        <Image className="lg:absolute left-0 mr-7 z-20" src={logoImg} alt=""/>
+                    <Link href="/" className="relative lg:pl-44 lg:mr-28 flex overflow-hidden lg:overflow-visible">
+                        <Image className="p-1 lg:absolute w-24 h-24 sm:h-auto sm:w-40 left-0 mr-7 z-20" src={logoImg} alt=""/>
                         <h1 className={`${inika.className} text-2xl pt-2.5 xl:text-4xl font-bold pr-10 sm:pr-0`}>Black
                             Hills
                             Defense <br
                                 className="hidden sm:block"/>& Industry Symposium
                         </h1>
-                    </div>
+                    </Link>
                     <nav
                         className="hidden bg-primary-600 pl-4 lg:pr-52 md:w-6/12 md:flex justify-between relative mt-3 z-30">
                         {
@@ -81,7 +82,6 @@ const Header = () => {
                     }
 
                 </button>
-                <div className="bg-dark h-24 w-full absolute bottom-0 translate-y-full z-10"></div>
             </header>
             <nav className={`h-full absolute top-0 w-full z-40 pt-12 transition-transform ${
                 mobileMenuIsOpen ? "" : "translate-x-full md:hidden"
