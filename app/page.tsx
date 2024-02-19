@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center overflow-x-hidden relative">
-            <div className="bg-dark w-full h-24 opacity-60 absolute top-0 z-10"/>
+            <div className="bg-dark w-full h-24 opacity-80 absolute top-0 z-10"/>
             <div className="max-h-full h-[1100px] w-full bg-hero bg-cover bg-center relative">
                 <div
                     className=" bottom-0 md:right-1/2 w-full max-w-screen-xl bg-primary-800 bg-opacity-90 absolute md:translate-x-1/2 md:translate-y-1/2 md:flex justify-between">
@@ -44,8 +44,13 @@ export default function Home() {
             </div>
 
             <div
-                className="bg-primary-100 border-t-8 border-primary-200 w-full flex justify-center pt-36 pb-6 border-b-2 shadow-lg mb-5">
+                className="bg-primary-100 border-t-8 border-primary-200 w-full flex justify-center pt-20 pb-6 border-b-2 shadow-lg mb-5">
                 <div className="max-w-screen-xl flex justify-between w-full flex-wrap p-8">
+                    <div className="pl-2 w-full pb-1 pt-4 mb-14 border-b-2 border-primary-300">
+                        <p className="max-w-screen-md font-bold font-serif text-3xl text-primary-600">Bringing together industry and military
+                            leaders, as well as, Black Hills community members to
+                            discuss the importance of defense investment in Western South Dakota.</p>
+                    </div>
                     <NavCard img={registerNowImg} title="Register Now" url="/register-now"/>
                     <NavCard img={agendaImg} title="Agenda" url="/agenda"/>
                     <NavCard img={exhibitorImg} title="Become an Exhibitor" url="/support/exhibitor"/>
