@@ -23,6 +23,10 @@ export default function Home() {
         <main className="flex min-h-screen flex-col items-center overflow-x-hidden relative">
             <div className="bg-dark w-full h-24 opacity-80 absolute top-0 z-10"/>
             <div className="max-h-full h-[1100px] w-full bg-hero bg-cover bg-center relative">
+                <div className="absolute right-0 top-1/2 p-2 bg-primary-900 bg-opacity-80">
+                    <h2 className="text-2xl"><span className="text-4xl font-bold">Senator Mike Rounds,<br/></span> 2023 Black Hills Defense & Industry Symposium</h2>
+                </div>
+
                 <div
                     className=" bottom-0 md:right-1/2 w-full max-w-screen-xl bg-primary-800 bg-opacity-90 absolute md:translate-x-1/2 md:translate-y-1/2 md:flex justify-between">
                     <div className="p-4">
