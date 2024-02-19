@@ -5,10 +5,12 @@ import hotelImg from "../public/hotel-info.jpg"
 import gettingAroundImg from "../public/getting-around.jpg";
 import faqImg from "../public/faq.jpg";
 import speakerImg from "../public/joseph-wright.jpg";
+import theboxImg from "@/public/thebox.png"
 import Link from "next/link";
 import NavCard from "@/app/components/NavCard/NavCard";
 import QuoteBlock from "@/app/components/QuoteBlock";
 import {Metadata} from "next";
+import Image from "next/image";
 
 
 export const metadata: Metadata = {
@@ -35,7 +37,7 @@ export default function Home() {
                     <div className="flex flex-col justify-center bg-gray-100 text-primary-600 p-4 lg:px-10">
                         <h3 className="text-xl mb-1 lg:text-5xl font-bold lg:mb-4">April 10 & 11, 2024</h3>
                         <Link className="text-2xl lg:text-3xl hover:bg-primary-100 transition-all"
-                              href="https://www.google.com/maps/dir/44.0800533,-103.2231634/The+Box+Elder+Events+Center,+631+Watiki+Way,+Box+Elder,+SD+57719/@44.0922571,-103.2314303,13z/data=!3m1!4b1!4m18!1m8!3m7!1s0x877d67e28838e8db:0x72d6c280514273be!2sThe+Box+Elder+Events+Center!8m2!3d44.1000482!4d-103.1460223!15sCgZ0aGVib3giA4gBAZIBC2V2ZW50X3ZlbnVl4AEA!16s%2Fg%2F11tg0drt7g!4m8!1m1!4e1!1m5!1m1!1s0x877d67e28838e8db:0x72d6c280514273be!2m2!1d-103.1460223!2d44.1000482?entry=ttu">
+                              href="https://www.google.com/maps/dir//The+Box+Elder+Events+Center,+631+Watiki+Way,+Box+Elder,+SD+57719/@44.0921733,-103.2723344,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x877d67e28838e8db:0x72d6c280514273be!2m2!1d-103.1460223!2d44.1000482?entry=ttu">
                             <h3 className="font-bold">theBox</h3>
                             <h3>Box Elder, SD 57719</h3>
                         </Link>
@@ -47,10 +49,25 @@ export default function Home() {
                 className="bg-primary-100 border-t-8 border-primary-200 w-full flex justify-center pt-20 pb-6 border-b-2 shadow-lg mb-5">
                 <div className="max-w-screen-xl flex justify-between w-full flex-wrap p-8">
                     <div className="pl-2 w-full pb-1 pt-4 mb-14 border-b-2 border-primary-300">
-                        <p className="max-w-screen-md font-bold font-serif text-3xl text-primary-600">Bringing together industry and military
+                        <p className="max-w-screen-md font-bold font-serif text-3xl text-primary-600">Bringing together
+                            industry and military
                             leaders, as well as, Black Hills community members to
                             discuss the importance of defense investment in Western South Dakota.</p>
                     </div>
+
+                    <div className="w-full flex justify-center">
+                        <Link
+                            className="group inline-flex items-center bg-primary-700 hover:bg-primary-600 transition-all mb-14 rounded-lg shadow-md overflow-hidden"
+                            href="https://www.google.com/maps/dir//The+Box+Elder+Events+Center,+631+Watiki+Way,+Box+Elder,+SD+57719/@44.0921733,-103.2723344,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x877d67e28838e8db:0x72d6c280514273be!2m2!1d-103.1460223!2d44.1000482?entry=ttu">
+                            <address className="text-primary-100 p-4 text-2xl">
+                                <span className="font-bold text-4xl">The Box</span><br/>
+                                631 WaTiki Way<br/>
+                                Box Elder, SD 57719
+                            </address>
+                            <Image className="opacity-95 group-hover:opacity-100 transition-all" src={theboxImg} alt=""/>
+                        </Link>
+                    </div>
+
                     <NavCard img={registerNowImg} title="Register Now" url="/register-now"/>
                     <NavCard img={agendaImg} title="Agenda" url="/agenda"/>
                     <NavCard img={exhibitorImg} title="Become an Exhibitor" url="/support/exhibitor"/>
