@@ -1,5 +1,5 @@
 'use client';
-import React from "react";
+import React, {useEffect, useState} from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -21,6 +21,13 @@ import Image from "next/image";
 const imgArr = [img1,img2,img3,img4,img6,img0,img7,img8,img9,img10,img11,img12,img13];
 
 const ImageSlider = () => {
+    const [screenWidth, setScreenWidth] = useState(1000);
+
+    useEffect(() => {
+        setScreenWidth(window.innerWidth);
+        console.log(window.screen.width);
+    },[]);
+
     const sliderSettings = {
         dots: true,
         arrows:true,
@@ -28,11 +35,10 @@ const ImageSlider = () => {
         infinite: true,
         draggable: false,
         speed: 700,
-        slidesToShow: 5,
+        slidesToShow: Math.ceil(screenWidth / 600),
         adaptiveHeight: true,
         slidesToScroll:1
     }
-
 
     return <div>
         <Slider {...sliderSettings}>
