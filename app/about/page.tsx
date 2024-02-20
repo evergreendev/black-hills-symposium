@@ -1,5 +1,6 @@
 import leftImg from "@/public/talking.jpg";
 import ImageAndText from "@/app/components/ImageAndText";
+import Agenda from "@/app/components/Agenda";
 
 export default function About() {
     return (
@@ -33,6 +34,26 @@ export default function About() {
                         the Government, along with important information regarding the B21 status.
                     </p>
                 </ImageAndText>
+            </div>
+            <div className="bg-primary-100 w-full flex justify-center p-12">
+                <div className="max-w-screen-md w-full text-primary-900 text-xl">
+                    <h2 className="font-bold text-5xl mb-3 font-serif">Mission</h2>
+                    <p className="max-w-prose m-auto text-primary-500">
+                        The Black Hills Defense & Industry Symposium is a 2-day long regional conference featuring
+                        discussions around defense entrepreneurship, development, national security, military quality of
+                        life, critical minerals, and local industry opportunities. We feature key leaders from the US
+                        Congress, Department of Defense, US Air Force, National Guard, US Army Corps of Engineers, and
+                        many
+                        more. We expect approximately 500 attendees at this event. This is an opportunity to be a part
+                        of a
+                        premier event focused on the growing defense industry of the area.
+                    </p>
+                </div>
+            </div>
+            <div className="w-full flex justify-center px-12 bg-primary-900">
+                <div className="text-primary-900 max-w-screen-xl bg-white p-7">
+                    <Agenda/>
+                </div>
             </div>
         </main>
     );
