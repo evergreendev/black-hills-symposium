@@ -50,7 +50,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className="w-full flex justify-center px-12 bg-primary-900">
+            <div id="agenda" className="w-full flex justify-center px-12 bg-primary-900">
                 <div className="text-primary-900 max-w-screen-xl bg-white p-7">
                     <Agenda/>
                 </div>
