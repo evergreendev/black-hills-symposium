@@ -40,7 +40,7 @@ export default function Home() {
                         </h2>
                     </div>
                     <div className="flex flex-col justify-center bg-gray-100 text-primary-600 p-4 lg:px-10">
-                        <h3 className="text-xl mb-1 lg:text-5xl font-bold lg:mb-4">April 10 & 11, 2024</h3>
+                        <h3 className="text-3xl mb-1 lg:text-5xl font-bold lg:mb-4">April 10 & 11, 2024</h3>
                         <Link className="text-2xl lg:text-3xl hover:bg-primary-100 transition-all"
                               href="https://www.google.com/maps/dir//The+Box+Elder+Events+Center,+631+Watiki+Way,+Box+Elder,+SD+57719/@44.0921733,-103.2723344,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x877d67e28838e8db:0x72d6c280514273be!2m2!1d-103.1460223!2d44.1000482?entry=ttu">
                             <h3 className="font-bold">theBox</h3>
