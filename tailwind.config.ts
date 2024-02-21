@@ -13,6 +13,7 @@ const config: Config = {
     },
     extend: {
       colors: {
+        'white':'#FFFFFF',
         'primary-100':'#E0E9D9',
         'primary-200':'#C2CFB8',
         'primary-300':'#869479',
