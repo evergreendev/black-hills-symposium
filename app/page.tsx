@@ -24,7 +24,8 @@ export default function Home() {
             <div className="bg-dark w-full h-24 opacity-80 absolute top-0 z-10"/>
             <div className="max-h-full h-[1100px] w-full bg-hero bg-cover bg-center relative">
                 <div className="absolute right-0 top-1/2 p-2 bg-primary-900 bg-opacity-80">
-                    <h2 className="text-2xl"><span className="text-4xl font-bold">Senator Mike Rounds,<br/></span> 2023 Black Hills Defense & Industry Symposium</h2>
+                    <h2 className="text-2xl"><span className="text-4xl font-bold">Senator Mike Rounds,<br/></span> 2023
+                        Black Hills Defense & Industry Symposium</h2>
                 </div>
 
                 <div
@@ -50,34 +51,40 @@ export default function Home() {
             </div>
 
             <div
-                className="bg-primary-100 border-t-8 border-primary-200 w-full flex justify-center pt-20 pb-6 border-b-2 shadow-lg mb-5">
-                <div className="max-w-screen-xl flex justify-between w-full flex-wrap p-8">
-                    <div className="pl-2 w-full pb-1 pt-4 mb-14 border-b-2 border-primary-300">
-                        <p className="max-w-screen-md font-bold font-serif text-3xl text-primary-600">Bringing together
-                            industry and military
-                            leaders, as well as, Black Hills community members to
-                            discuss the importance of defense investment in Western South Dakota.</p>
-                    </div>
+                className="bg-primary-100 bg-logo bg-[length:40vw] bg-no-repeat bg-[-13%_31%] border-t-8 border-primary-200 w-full flex justify-center  border-b-2 shadow-lg mb-5">
+                <div className="bg-primary-100 bg-opacity-70 w-full flex justify-center pt-20 pb-6">
+                    <div className="max-w-screen-xl flex justify-between w-full flex-wrap p-8">
+                        <div className="pl-2 w-full pb-1 pt-4 mb-14 border-b-2 border-primary-300">
+                            <p className="max-w-screen-md font-bold font-serif text-3xl text-primary-600">Bringing
+                                together
+                                industry and military
+                                leaders, as well as, Black Hills community members to
+                                discuss the importance of defense investment in Western South Dakota.</p>
+                        </div>
 
-                    <div className="w-full flex justify-start">
-                        <Link
-                            className="flex-wrap group inline-flex items-center bg-primary-700 hover:bg-primary-600 transition-all mb-14 rounded-lg shadow-md overflow-hidden"
-                            href="https://www.google.com/maps/dir//The+Box+Elder+Events+Center,+631+Watiki+Way,+Box+Elder,+SD+57719/@44.0921733,-103.2723344,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x877d67e28838e8db:0x72d6c280514273be!2m2!1d-103.1460223!2d44.1000482?entry=ttu">
-                            <address className="text-primary-100 p-4 text-xl md:text-2xl">
-                                <span className="font-bold text-2xl md:text-4xl">The Box</span><br/>
-                                631 WaTiki Way<br/>
-                                Box Elder, SD 57719
-                            </address>
-                            <Image className="opacity-95 group-hover:opacity-100 transition-all" src={theboxImg} alt=""/>
-                        </Link>
-                    </div>
+                        <div className="w-full flex justify-start">
+                            <Link
+                                className="flex-wrap group inline-flex items-center bg-primary-700 hover:bg-primary-600 transition-all mb-14 rounded-lg shadow-md overflow-hidden"
+                                href="https://www.google.com/maps/dir//The+Box+Elder+Events+Center,+631+Watiki+Way,+Box+Elder,+SD+57719/@44.0921733,-103.2723344,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x877d67e28838e8db:0x72d6c280514273be!2m2!1d-103.1460223!2d44.1000482?entry=ttu">
+                                <address className="text-primary-100 p-4 text-xl md:text-2xl">
+                                    <span className="font-bold text-2xl md:text-4xl">The Box</span><br/>
+                                    631 WaTiki Way<br/>
+                                    Box Elder, SD 57719
+                                </address>
+                                <Image className="opacity-95 group-hover:opacity-100 transition-all" src={theboxImg}
+                                       alt=""/>
+                            </Link>
+                        </div>
 
-                    <NavCard img={registerNowImg} title="Register Now" url="/register-now"/>
-                    <NavCard img={agendaImg} title="Agenda" url="/about#agenda"/>
-                    <NavCard img={exhibitorImg} title="Become an Exhibitor" url="/support/exhibitor"/>
-                    <NavCard img={hotelImg} title="Hotel Information" url="https://www.visitrapidcity.com/places-to-stay/hotels-and-motels/"/>
-                    <NavCard img={gettingAroundImg} title="Things To Do" url="https://www.visitrapidcity.com/things-to-do/"/>
-                    <NavCard img={faqImg} title="FAQ" url="/faq"/>
+                        <NavCard img={registerNowImg} title="Register Now" url="/register-now"/>
+                        <NavCard img={agendaImg} title="Agenda" url="/about#agenda"/>
+                        <NavCard img={exhibitorImg} title="Become an Exhibitor" url="/support/exhibitor"/>
+                        <NavCard img={hotelImg} title="Hotel Information"
+                                 url="https://www.visitrapidcity.com/places-to-stay/hotels-and-motels/"/>
+                        <NavCard img={gettingAroundImg} title="Things To Do"
+                                 url="https://www.visitrapidcity.com/things-to-do/"/>
+                        <NavCard img={faqImg} title="FAQ" url="/faq"/>
+                    </div>
                 </div>
             </div>
             <div className="max-w-screen-xl text-primary-900 mt-16 mb-16">
