@@ -5,8 +5,9 @@ import logoImg from "../../../public/bhmac-logo.png"
 import NavItem from "@/app/components/Header/NavItem";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCircleXmark, faBars} from "@fortawesome/free-solid-svg-icons";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import Link from "next/link";
+import {usePathname} from "next/navigation";
 
 const navArr = [
     {
@@ -47,6 +48,11 @@ const navArr = [
 
 const Header = () => {
     const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
+    const pathname = usePathname();
+
+    useEffect(() => {
+        setMobileMenuIsOpen(false);
+    },[pathname]);
 
     return (
         <>
