@@ -6,7 +6,7 @@ export default function About() {
     return (
         <main className="flex min-h-screen flex-col items-center overflow-x-hidden relative">
             <div className="bg-dark w-full h-24 opacity-80 absolute top-0 z-10"/>
-            <div className="max-h-full h-[800px] w-full bg-about bg-cover bg-center relative">
+            <div className="max-h-full h-[800px] w-full bg-about bg-[right_-28vw_top_-2vw] sm:bg-right bg-cover relative">
                 <div
                     className=" bottom-0 md:right-1/2 w-full max-w-screen-xl bg-primary-800 bg-opacity-90 absolute md:translate-x-1/2 md:translate-y-1/2 md:flex justify-between">
                 </div>

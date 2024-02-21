@@ -2,7 +2,7 @@ import Image, {StaticImageData} from "next/image";
 import Link from "next/link";
 
 const navCard = ({img, url,title}: { img: StaticImageData, url: string, title:string }) => {
-    return <Link href={url} className="m-auto relative overflow-hidden group block mb-5 rounded-full h-96 w-96 border-4 border-straw-500 shadow-md">
+    return <Link href={url} className="m-auto relative overflow-hidden group block mb-5 rounded-full h-72 w-72 sm:h-96 sm:w-96 border-4 border-straw-500 shadow-md">
 {/*
         <div className="absolute rotate-45 top-0 left-[-500px] right-[-500px] bottom-0 bg-primary-400 opacity-30 transition-all group-hover:translate-x-[150%] duration-700"/>
 */}
