@@ -3,7 +3,6 @@ import agendaImg from "../public/agenda.jpg";
 import exhibitorImg from "../public/exhibitor.jpg";
 import hotelImg from "../public/hotel-info.jpg"
 import gettingAroundImg from "../public/rushmore.jpg";
-import faqImg from "../public/faq.jpg";
 import speakerImg from "../public/joseph-wright.jpg";
 import theboxImg from "@/public/thebox.png"
 import Link from "next/link";
@@ -76,14 +75,16 @@ export default function Home() {
                             </Link>
                         </div>
 
-                        <NavCard img={registerNowImg} title="Register Now" url="/register-now"/>
-                        <NavCard img={agendaImg} title="Agenda" url="/about#agenda"/>
-                        <NavCard img={exhibitorImg} title="Become an Exhibitor" url="/support/exhibitor"/>
-                        <NavCard img={hotelImg} title="Hotel Information"
-                                 url="https://www.visitrapidcity.com/places-to-stay/hotels-and-motels/"/>
-                        <NavCard img={gettingAroundImg} title="Things To Do"
-                                 url="https://www.visitrapidcity.com/things-to-do/"/>
-                        <NavCard img={faqImg} title="FAQ" url="/faq"/>
+                        <div className="flex flex-wrap">
+                            <NavCard img={registerNowImg} title="Register Now" url="/register-now"/>
+                            <NavCard img={agendaImg} title="Agenda" url="/about#agenda"/>
+                            <NavCard img={exhibitorImg} title="Become an Exhibitor" url="/support/exhibitor"/>
+                            <NavCard img={hotelImg} title="Hotel Information"
+                                     url="https://www.visitrapidcity.com/places-to-stay/hotels-and-motels/"/>
+                            <NavCard img={gettingAroundImg} title="Things To Do"
+                                     url="https://www.visitrapidcity.com/things-to-do/"/>
+                        </div>
+
                     </div>
                 </div>
             </div>
