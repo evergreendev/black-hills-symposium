@@ -51,8 +51,9 @@ export default function Home() {
                 className="bg-primary-100 bg-logo bg-[length:40vw] bg-no-repeat bg-[-13%_31%] border-t-8 border-primary-200 w-full flex justify-center  border-b-2 shadow-lg mb-5">
                 <div className="bg-primary-100 bg-opacity-70 w-full flex justify-center pt-20 pb-6">
                     <div className="max-w-screen-xl flex justify-between w-full flex-wrap p-8">
+
                         <div className="pl-2 w-full pb-1 pt-4 mb-14 border-b-2 border-primary-300">
-                            <p className="max-w-screen-md font-bold font-serif text-3xl text-primary-600">Bringing
+                            <p className="font-bold font-serif text-4xl text-primary-600">Bringing
                                 together
                                 industry and military
                                 leaders, as well as, Black Hills community members to
@@ -60,9 +61,11 @@ export default function Home() {
                         </div>
 
                         <div className="flex flex-wrap">
-                            <NavCard img={registerNowImg} title="Register Now" url="https://www.etix.com/ticket/p/78715410/black-hills-defense-industry-symposium-box-elder-the-box-convention-center"/>
+                            <NavCard img={registerNowImg} title="Register Now"
+                                     url="https://www.etix.com/ticket/p/78715410/black-hills-defense-industry-symposium-box-elder-the-box-convention-center"/>
                             <NavCard img={agendaImg} title="Agenda" url="/about#agenda"/>
-                            <NavCard img={exhibitorImg} title="Become an Exhibitor" url="https://www.etix.com/ticket/p/78715410/black-hills-defense-industry-symposium-box-elder-the-box-convention-center"/>
+                            <NavCard img={exhibitorImg} title="Become an Exhibitor"
+                                     url="https://www.etix.com/ticket/p/78715410/black-hills-defense-industry-symposium-box-elder-the-box-convention-center"/>
                             <NavCard img={hotelImg} title="Hotel Information"
                                      url="https://www.visitrapidcity.com/places-to-stay/hotels-and-motels/"/>
                             <NavCard img={gettingAroundImg} title="Things To Do"
