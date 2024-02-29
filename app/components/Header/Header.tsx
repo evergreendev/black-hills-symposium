@@ -9,40 +9,37 @@ import {useEffect, useState} from "react";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
 
-const navArr = [
+type item = {
+    title: string,
+    url: string,
+    className?: string
+}
+
+const navArr: {item: item, subItems?: item[]}[] = [
     {
         item: {
             title: "Register",
-            url: "/register"
+            url: "https://www.etix.com/ticket/p/78715410/black-hills-defense-industry-symposium-box-elder-the-box-convention-center"
         }
     },
     {
-        item: {
-            title: "Support",
-            url: "/support",
-        },
-        subItems: [
-            {
-                title: "Exhibitor/Sponsor",
-                url: "/support/exhibitor"
-            },
-            {
-                title: "Volunteer",
-                url: "/support/volunteer"
-            }
-        ]
+      item: {
+          title: "Exhibitor/Sponsor",
+          url: "https://www.etix.com/ticket/p/78715410/black-hills-defense-industry-symposium-box-elder-the-box-convention-center"
+      }
     },
     {
         item: {
             title: "About",
             url: "/about",
-        },
-        subItems: [
-            {
-                title: "Contact",
-                url: "/about/contact"
-            }
-        ]
+        }
+    },
+    {
+        item: {
+            title: "Contact",
+            url: "mailto:tif.robertson@ellsworthauthority.org",
+            className: "bg-primary-500 text-primary-100 rounded"
+        }
     }
 ];
 
@@ -68,7 +65,7 @@ const Header = () => {
                         </h1>
                     </Link>
                     <nav
-                        className="hidden bg-primary-600 pl-4 lg:pr-52 md:w-6/12 md:flex justify-between relative mt-3 z-30">
+                        className="hidden pl-4 lg:pr-52 md:w-6/12 md:flex justify-between relative mt-3 z-30">
                         {
                             navArr.map(item => {
                                 return (

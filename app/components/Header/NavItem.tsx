@@ -4,12 +4,13 @@ import arrowDown from "../../../public/arrow-down.svg";
 
 type item = {
     title: string,
-    url: string
+    url: string,
+    className?: string
 }
 const NavItem = ({item, mobile, subItems}: { item: item, mobile?: boolean, subItems?: item[] }) => {
     return (
         mobile ?
-            <div className="group text-xl font-bold px-2 text-primary-100 pt-2 pb-2">
+            <div className={`group text-xl font-bold px-2 text-primary-100 pt-2 pb-2 ${item?.className}`}>
                 <Link href={item.url}>
                     <p>{item.title}</p>
                 </Link>
@@ -18,7 +19,7 @@ const NavItem = ({item, mobile, subItems}: { item: item, mobile?: boolean, subIt
                         <div className="border-l-2 border-primary-600 mt-2">
                             {
                                 subItems.map(item => {
-                                    return <Link className="font-normal text-lg ml-3 p-2 block" href={item.url}
+                                    return <Link className={`font-normal text-lg ml-3 p-2 block`} href={item.url}
                                                  key={item.title}>{item.title}</Link>
                                 })
                             }
@@ -27,7 +28,7 @@ const NavItem = ({item, mobile, subItems}: { item: item, mobile?: boolean, subIt
                 }
             </div> :
             <div
-                className="group hover:bg-primary-700 text-xl font-bold px-2 text-primary-100 pt-2 pb-2  transition-all">
+                className={`group hover:bg-primary-700 text-xl font-bold px-2 text-primary-100 pt-2 pb-2  transition-all ${item.className}`}>
                 <Link href={item.url}
                       className="">
                     <p className="flex">
