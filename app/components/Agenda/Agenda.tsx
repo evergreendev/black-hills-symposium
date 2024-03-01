@@ -1,5 +1,6 @@
 type dateItem = {
     date: string,
+    callout?: boolean,
     items: timeItem[]
 }
 type timeItem = {
@@ -12,34 +13,9 @@ const schedule: dateItem[] = [{
     date: "Wednesday, April 10, 2024",
     items: [
         {
-            time: "12:00pm",
-            items: [
-                "Welcome- Main Ballroom",
-                "Scott to Emcee & Open"
-            ]
-        },
-        {
-            time: "12:15pm",
-            items: [
-                "War Games - Main Ballroom"
-            ]
-        },
-        {
-            time: "1:00-5pm",
-            items: [
-                "PFOS/PFOA - Lancer Salon C/D"
-            ]
-        },
-        {
             time: "4:30-5:00pm",
             items: [
-                "Featured Speaker: General Bussiere - Main Ballroom"
-            ]
-        },
-        {
-            time: "5:00pm",
-            items: [
-                "Closing Remarks"
+                "Featured Speaker - Main Ballroom"
             ]
         },
         {
@@ -50,87 +26,104 @@ const schedule: dateItem[] = [{
             ]
         }
     ]
-}, {
-    date: "Thursday, April 11, 2024",
-    items: [
-        {
-            time: "7:00am",
-            items: [
-                "Networking/Coffee Social"
-            ]
-        },
-        {
-            time: "8:00am",
-            items: [
-                "Welcome",
-                "South Dakota Mines Pep Band/Honor Guard/National Anthem"
-            ]
-        },
-        {
-            time: "8:15am",
-            items: [
-                "Featured Speaker- Congressman Dusty Johnson & Maj Gen Morrell, SDNG AG"
-            ]
-        },
-        {
-            time: "9:00am",
-            items: [
-                "Track Sessions"
-            ]
-        },
-        {
-            time: "10:00am",
-            items: [
-                "Connection Break- Foyer",
-                "Vendors/Sponsors/Snacks"
-            ]
-        },
-        {
-            time: "11:00am",
-            items: [
-                "Track Sessions"
-            ]
-        },
-        {
-            time: "12:00pm",
-            items: [
-                "MAC Chow Hall Luncheon",
-                "Featured Speaker(s): Senator Thune  & Lt Gen Caroline Miller, HAF/A1"
-            ]
-        },
-        {
-            time: "1:30pm",
-            items: [
-                "Track Session"
-            ]
-        },
-        {
-            time: "2:30pm",
-            items: [
-                "Connection Break- Foyer",
-                "Vendors/Sponsors/Snacks"
-            ]
-        },
-        {
-            time: "3:00pm",
-            items: [
-                "Track Sessions"
-            ]
-        },
-        {
-            time: "4:00pm",
-            items: [
-                "B21 Update & Closing Remarks"
-            ]
-        },
-        {
-            time: "4:00 - 6:00pm",
-            items: [
-                "Social- Foyer"
-            ]
-        }
-    ]
-}];
+},
+    {
+        callout: true,
+        date: "In-depth pre-symposium sessions, April 10. Open to all symposium attendees.",
+        items: [
+            {
+                time: "8:30-4:00pm",
+                items: [
+                    "PFOS/PFOA Technical Seminar"
+                ]
+            },
+            {
+                time: "1:00-4:00pm",
+                items: [
+                    "The Perils of Theater Nuclear Escalation War Games, to feature panels of participants actively participating in a war game simulation.  Panels will consist of military and civilian panelists. Simulation will demonstrate the complexity of a potential conflict with a peer nation and the challenges the United States would encounter."
+                ]
+            }
+        ]
+    },
+    {
+        date: "Thursday, April 11, 2024",
+        items: [
+            {
+                time: "7:00am",
+                items: [
+                    "Networking/Coffee Social"
+                ]
+            },
+            {
+                time: "8:00am",
+                items: [
+                    "Welcome",
+                    "South Dakota Mines Pep Band/Honor Guard/National Anthem"
+                ]
+            },
+            {
+                time: "8:15am",
+                items: [
+                    "Featured Speakers: Congressman Dusty Johnson (via video) & Maj Gen Morrell, SDNG AG"
+                ]
+            },
+            {
+                time: "9:00am",
+                items: [
+                    "Track Sessions"
+                ]
+            },
+            {
+                time: "10:00am",
+                items: [
+                    "Connection Break- Foyer"
+                ]
+            },
+            {
+                time: "11:00am",
+                items: [
+                    "Track Sessions"
+                ]
+            },
+            {
+                time: "12:00pm",
+                items: [
+                    "MAC Chow Hall Luncheon - Welcome Video - Tim Houghton, Symposium Chair",
+                    "Featured Speaker: Lt Gen Caroline Miller, HAF/A1"
+                ]
+            },
+            {
+                time: "1:30pm",
+                items: [
+                    "Track Session"
+                ]
+            },
+            {
+                time: "2:30pm",
+                items: [
+                    "Track Sessions"
+                ]
+            },
+            {
+                time: "3:30pm",
+                items: [
+                    "B21 Update - Col. Derek Oakley, Commander of the 28th Bomb Wing, EAFB"
+                ]
+            },
+            {
+                time: "4:00pm-5:00pm",
+                items: [
+                    "Elevate Social, Drawings, Grand Prize - Foyer"
+                ]
+            },
+            {
+                time: "5:30pm",
+                items: [
+                    "Tours depart"
+                ]
+            }
+        ]
+    }];
 
 const trackSessions = [
     {
@@ -200,10 +193,6 @@ const trackSessions = [
         title: "Partnering with the DOD/General Contractor",
         items: [
             {
-                time: "9:00",
-                title: "TBD"
-            },
-            {
                 time: "11:00",
                 title: "Contracting PFOS/Military/Sustainability"
             },
@@ -225,7 +214,7 @@ const Agenda = () => {
             <h2 className="text-4xl font-bold p-2.5">Events</h2>
             {
                 schedule.map((x) => {
-                    return <div key={x.date} className="mb-10 px-16">
+                    return <div key={x.date} className={`mb-10 px-16 ${x.callout ? "bg-primary-200 py-6 shadow-lg" : ""}`}>
                         <p className="text-2xl font-bold mb-4">{x.date}</p>
                         <div>
                             {x.items.map((y) => {
