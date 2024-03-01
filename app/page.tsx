@@ -65,7 +65,7 @@ export default function Home() {
                                      url="https://www.etix.com/ticket/p/78715410/black-hills-defense-industry-symposium-box-elder-the-box-convention-center"/>
                             <NavCard img={agendaImg} title="Agenda" url="/about#agenda"/>
                             <NavCard img={exhibitorImg} title="Become an Exhibitor"
-                                     url="https://www.etix.com/ticket/p/78715410/black-hills-defense-industry-symposium-box-elder-the-box-convention-center"/>
+                                     url="/exhibitor-information"/>
                             <NavCard img={hotelImg} title="Hotel Information"
                                      url="https://www.visitrapidcity.com/places-to-stay/hotels-and-motels/"/>
                             <NavCard img={gettingAroundImg} title="Things To Do"
