@@ -67,7 +67,7 @@ export default function Home() {
                             <NavCard img={exhibitorImg} title="Become an Exhibitor"
                                      url="/exhibitor-information"/>
                             <NavCard img={hotelImg} title="Hotel Information"
-                                     url="https://www.visitrapidcity.com/places-to-stay/hotels-and-motels/"/>
+                                     url="/hotel-information"/>
                             <NavCard img={gettingAroundImg} title="Things To Do"
                                      url="https://www.visitrapidcity.com/things-to-do/"/>
                         </div>
