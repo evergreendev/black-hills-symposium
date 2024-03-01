@@ -23,7 +23,7 @@ const Footer = () => {
                     className="mt-14 flex-wrap group inline-flex items-center bg-primary-700 hover:bg-primary-800 transition-all mb-14 rounded-lg shadow-md overflow-hidden"
                     href="https://www.google.com/maps/dir//The+Box+Elder+Events+Center,+631+Watiki+Way,+Box+Elder,+SD+57719/@44.0921733,-103.2723344,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x877d67e28838e8db:0x72d6c280514273be!2m2!1d-103.1460223!2d44.1000482?entry=ttu">
                     <address className="text-primary-100 p-4 text-xl md:text-2xl">
-                        <span className="font-bold text-2xl md:text-4xl">The Box</span><br/>
+                        <span className="font-bold text-2xl md:text-4xl">The Box Elder Convention Center</span><br/>
                         631 WaTiki Way<br/>
                         Box Elder, SD 57719
                     </address>
