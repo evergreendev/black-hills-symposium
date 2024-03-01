@@ -30,6 +30,12 @@ const navArr: {item: item, subItems?: item[]}[] = [
     },
     {
         item: {
+            title: "Volunteer",
+            url: "/volunteer"
+        }
+    },
+    {
+        item: {
             title: "About",
             url: "/about",
         }
