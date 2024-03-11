@@ -1,3 +1,5 @@
+import {ReactElement} from "react";
+
 type dateItem = {
     date: string,
     callout?: boolean,
@@ -5,28 +7,28 @@ type dateItem = {
 }
 type timeItem = {
     time: string,
-    items: string[]
+    items: (string | ReactElement)[]
 }
 
 
-const savedCallback =     {
-        callout: true,
-        date: "In-depth pre-symposium sessions, April 10. Open to all symposium attendees.",
-        items: [
-            {
-                time: "8:30-4:00pm",
-                items: [
-                    "PFOS/PFOA Technical Seminar"
-                ]
-            },
-            {
-                time: "1:00-4:00pm",
-                items: [
-                    "The Perils of Theater Nuclear Escalation War Games, to feature panels of participants actively participating in a war game simulation.  Panels will consist of military and civilian panelists. Simulation will demonstrate the complexity of a potential conflict with a peer nation and the challenges the United States would encounter."
-                ]
-            }
-        ]
-    };
+const savedCallback = {
+    callout: true,
+    date: "In-depth pre-symposium sessions, April 10. Open to all symposium attendees.",
+    items: [
+        {
+            time: "8:30-4:00pm",
+            items: [
+                "PFOS/PFOA Technical Seminar"
+            ]
+        },
+        {
+            time: "1:00-4:00pm",
+            items: [
+                "The Perils of Theater Nuclear Escalation War Games, to feature panels of participants actively participating in a war game simulation.  Panels will consist of military and civilian panelists. Simulation will demonstrate the complexity of a potential conflict with a peer nation and the challenges the United States would encounter."
+            ]
+        }
+    ]
+};
 
 const schedule: dateItem[] = [{
     date: "Wednesday, April 10, 2024",
@@ -82,6 +84,17 @@ const schedule: dateItem[] = [{
         }
     ]
 },
+    {
+        date: "",
+        items: [
+            {
+                time: "",
+                items: [
+                    <div key="*">* <span className="font-bold">Simultaneous, in-depth sessions.</span></div>
+                ]
+            }
+        ]
+    },
     {
         date: "Thursday, April 11, 2024",
         items: [
