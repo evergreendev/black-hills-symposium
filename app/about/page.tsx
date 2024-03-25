@@ -18,63 +18,37 @@ export default function About() {
             <div className="max-w-screen-xl text-primary-900 mt-9">
                 <ImageAndText img={leftImg}>
                     <div className="space-y-3.5">
-                        <p>The Black Hills Defense and Industry Symposium is coming to The Box Elder Convention Center,
-                            April
-                            10- 11, 2024. This annual event will bring leaders of academia, research, industry,
-                            military,
-                            and
-                            the Black Hills communities together for meaningful dialogue on the importance of defense
-                            investment
-                            in western South Dakota. Leaders will discuss how attendees can contribute to solutions for
-                            stronger
-                            national defense and bolstered regional economic development.</p>
-                        <p>The
-                            2024 Symposium will feature high level discussions and breakout sessions regarding
-                            PFOS/PFOA,
-                            critical minerals, Small Business Innovation Research (SBIR), and partnerships between
-                            general
-                            contractors, military family quality of life, and the DOD, along with important information
-                            regarding the B21. We encourage all Black Hills residents to register and attend.</p>
+                        <p>The Black Hills Defense and Industry Symposium is coming to The Box Elder Event Center, April
+                            10-11, 2024. This annual event will bring leaders of academia, research, industry, the
+                            military, the federal government, and the Black Hills community together for meaningful
+                            dialogue highlighting the importance of collaborative relations in western South Dakota.
+                            Leaders will discuss how attendees can contribute to solutions for stronger national defense
+                            and bolstered regional economic development.</p>
+
+                        <p>The 2024 Symposium will feature high-level discussions and breakout sessions regarding
+                            PFOS/PFOA, critical minerals, Small Business Innovation Research (SBIR), partnerships
+                            between prime and subcontractors, military family quality of life, along with important
+                            information regarding the B-21 Raider. We encourage all Black Hills residents to register
+                            and attend.</p>
                     </div>
                 </ImageAndText>
                 <div className="space-y-3.5 lg:text-lg p-4 md:p-0 mb-5">
-                    <p>The Symposium will officially kick off on April 10th, following preliminary PFOS/PFOA and War
-                        Games
-                        sessions at 4:30pm, open to all attendees. Following the opening presentation, all guests
-                        and
-                        dignitaries are invited to the South Dakota School of Mines Welcome Reception, beginning at
-                        5pm.</p>
+                    <p>Day 1 (April 10) will kick off at 8:30 a.m., starting with a technical seminar focused on
+                        PFOS/PFOA. At 1 p.m., a separate, simultaneous session will kick off featuring panels of
+                        military and civilian experts who will participate in a war gaming simulation called The Perils
+                        of Theater Nuclear Escalation. Following these opening sessions, the Symposium will feature a
+                        high-level military speaker at 4:30 p.m. At 5 p.m., South Dakota School of Mines will host a
+                        welcome reception for all attendees in the foyer of The Box Elder Events Center.</p>
 
-                    <p>The Perils of Theater Nuclear Escalation War Games will feature panels of participants
-                        actively
-                        participating in a war game simulation. Panels will consist of military and civilian
-                        panelists.
-                        Simulation will demonstrate the complexity of a potential conflict with a peer nation and
-                        the
-                        challenges the United States would encounter.</p>
-
-                    <p>Thursday brings a full day of discussions around defense entrepreneurship, development,
-                        national
-                        security, military quality of life, critical minerals, and local defense industry
-                        opportunities.
-                        Featured speakers will include members of the US Congress, South Dakota National Guard, and
-                        the
-                        US
-                        Air Force.</p>
-
-                    <p>The event will include many industry vendors, highly desired door prized drawings, and
-                        special
-                        off-property events Thursday evening, which include a tour to Mt. Rushmore with dinner or a
-                        guided
-                        tour of the South Dakota Mines Lab.</p>
-
-                    <p>The Black Hills Defense & Industry Symposium is brought to you by many key sponsors and
-                        supporters
-                        who believe in the importance of community engagement and growth.</p>
-
-                    <p className="font-bold text-center">Ticket includes access to all sessions, including pre-symposium
-                        sessions, both days of the
-                        event.</p>
+                    <p>Day 2 (April 11) will feature general sessions in addition to16 different breakout session
+                        offerings
+                        throughout the day. Featured speakers include Congressman Dusty Johnson, Major General Mark
+                        Morrell
+                        (South Dakota National Guard Adjutant General), Lieutenant General Caroline Miller (Air Force
+                        Deputy
+                        Chief of Staff for Manpower, Personnel and Services), and Colonel Derek Oakley (Ellsworth Air
+                        Force
+                        Base Commander).</p>
                 </div>
 
             </div>
