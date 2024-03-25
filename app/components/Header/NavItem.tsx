@@ -28,7 +28,7 @@ const NavItem = ({item, mobile, subItems}: { item: item, mobile?: boolean, subIt
                 }
             </div> :
             <div
-                className={`group hover:bg-primary-700 text-xl font-bold px-2 text-primary-100 pt-2 pb-2  transition-all ${item.className}`}>
+                className={`group hover:bg-primary-700 text-lg font-bold px-2 text-primary-100 pt-2 pb-2  transition-all ${item.className}`}>
                 <Link href={item.url}
                       className="">
                     <p className="flex">

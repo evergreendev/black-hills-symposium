@@ -1,6 +1,9 @@
 import leftImg from "@/public/talking.jpg";
+import northropBlue from "@/public/northrop-grumman-blue.png";
 import ImageAndText from "@/app/components/ImageAndText";
 import Agenda from "@/app/components/Agenda";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
     return (
@@ -69,7 +72,8 @@ export default function About() {
                         supporters
                         who believe in the importance of community engagement and growth.</p>
 
-                    <p className="font-bold text-center">Ticket includes access to all sessions, including pre-symposium sessions, both days of the
+                    <p className="font-bold text-center">Ticket includes access to all sessions, including pre-symposium
+                        sessions, both days of the
                         event.</p>
                 </div>
 
@@ -89,6 +93,9 @@ export default function About() {
                     </p>
                 </div>
             </div>
+            <Link href="https://www.northropgrumman.com/">
+                <Image className="w-96 p-4" src={northropBlue} alt="Northrop Grumman"/>
+            </Link>
             <div id="agenda" className="w-full flex justify-center px-12 bg-primary-900">
                 <div className="text-primary-900 max-w-screen-xl bg-white p-7">
                     <Agenda/>

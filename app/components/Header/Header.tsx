@@ -36,7 +36,7 @@ const navArr: {item: item, subItems?: item[]}[] = [
     },
     {
         item: {
-            title: "About",
+            title: "About & Agenda",
             url: "/about",
         }
     },
@@ -64,10 +64,11 @@ const Header = () => {
                     <Link href="/" className="relative lg:pl-44 lg:mr-28 flex overflow-hidden lg:overflow-visible">
                         <Image className="p-1 lg:absolute w-24 h-24 sm:h-auto sm:w-40 left-0 mr-7 z-20" src={logoImg}
                                alt=""/>
-                        <h1 className={`${inika.className} text-2xl pt-2.5 xl:text-4xl font-bold pr-10 sm:pr-0`}>Black
-                            Hills
-                            Defense <br
-                                className="hidden sm:block"/>& Industry Symposium
+                        <h1 className={`${inika.className} text-2xl pt-2.5 xl:text-4xl font-bold pr-10 sm:pr-0`}>Northrop
+                            Grumman Black
+                            Hills<br
+                                className="hidden sm:block"/>
+                            Defense & Industry Symposium
                         </h1>
                     </Link>
                     <nav

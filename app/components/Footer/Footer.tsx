@@ -1,5 +1,6 @@
 import wireLogo from "@/public/bh-wire-logo-white.png"
 import bhMacLogo from "@/public/bhmac-logo.png"
+import northrop from "@/public/northrop-grumman.png"
 import Image from "next/image";
 import Link from "next/link";
 import ImageSlider from "@/app/components/ImageSlider";
@@ -10,8 +11,11 @@ const Footer = () => {
         <ImageSlider/>
         <div className="bg-primary-600 border-t-4 border-primary-500">
 
-            <div className="w-full flex justify-center flex-wrap">
-                <div className="max-w-screen-md flex flex-col justify-between p-7">
+            <div className="w-full flex justify-center flex-wrap items-center">
+                <div className="max-w-screen-md flex flex-col justify-between p-7 items-center">
+                    <Link href="https://www.northropgrumman.com/">
+                        <Image className="w-96 p-4" src={northrop} alt="Northrop Grumman"/>
+                    </Link>
                     <Link href="https://blackhillswire.com/">
                         <Image className="w-52 p-4" src={wireLogo} alt="Black Hills Wire"/>
                     </Link>
