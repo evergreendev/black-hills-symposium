@@ -20,13 +20,13 @@ export default function About() {
                             Plan Your Visit | Black Hills Attractions | The Box Events Center
                         </Link>
                         <p>
-                            Rapid City Regional Airport is the closest airport to The Box Elder Convention Center. Visit
+                            Rapid City Regional Airport is the closest airport to The Box Elder Event Center. Visit
                             its <Link className="underline font-bold" href="https://rapairport.com/">website</Link> or
                             call (605) 393-9924 for more information.
                         </p>
                         <h3 className="text-3xl">What to Expect</h3>
                         <p>
-                            For more information about The Box Elder Convention Center and what to expect while onsite, please <Link className="underline font-bold"  href="https://thebox.live/">visit
+                            For more information about The Box Elder Event Center and what to expect while onsite, please <Link className="underline font-bold"  href="https://thebox.live/">visit
                             their website here</Link>.
                         </p>
                     </div>

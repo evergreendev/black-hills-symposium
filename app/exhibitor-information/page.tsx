@@ -76,7 +76,7 @@ export default function About() {
                 <h2 className="font-serif text-5xl mb-8">
                     Sponsorship Opportunities
                 </h2>
-                <Sponsorship title="Event Title Sponsor" price="$10,000">
+                {/*<Sponsorship title="Event Title Sponsor" price="$10,000">
                     <ul className="list-disc text-xl">
                         <li>
                             Recognized as the <span className="underline">Premier Title</span> sponsor for the
@@ -96,7 +96,7 @@ export default function About() {
                             </ul>
                         </li>
                     </ul>
-                </Sponsorship>
+                </Sponsorship>*/}
                 <Sponsorship title="Event Sponsor" price="$1,000">
                     <ul className="list-disc text-xl">
                         <li>
