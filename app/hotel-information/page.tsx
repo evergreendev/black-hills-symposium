@@ -28,7 +28,7 @@ export default function About() {
                         </p>
                         <p>
                             <Link
-                                href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1700588770023&key=GRP&app=resvlink"
+                                href="https://www.marriott.com/default.mi"
                                 className="flex justify-center my-4
                         ">
                                 <span
