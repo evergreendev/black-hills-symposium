@@ -34,15 +34,35 @@ const schedule: dateItem[] = [{
     date: "Wednesday, April 10, 2024",
     items: [
         {
-            time: "8:30am",
+            time: "7:30am",
             items: [
-                "Opening Ceremonies / Pledge of Allegiance"
+                "Doors open"
             ]
         },
         {
-            time: "8:40am - 11:00am",
+            time: "7:30am - 5:00pm",
             items: [
-                "PFOS/PFOA Technical Seminar*"
+                "Event check-in & badge pick-up"
+            ]
+        },
+        {
+            time: "8:30am - 4:30pm",
+            items: [
+                <div key="gen-ses"><span className="font-bold">PFOS/PFOA Technical Seminar</span> - Lancer Salon C/D</div>
+            ]
+        },
+
+        {
+            time: "8:30am",
+            items: [
+                "Welcome / Pledge of Allegiance"
+            ]
+        },
+        {
+            time: "8:40am",
+            items: [
+                "PFOS/PFOA Technical Seminar*",
+                "Starting with technical presentations and discussions focused on PFOS/PFOA challenges locally and nationally. We will have experts from academia, government, and industry highlighting technologies, remediation, and local perspectives. Audience participation in the discussion will be intermixed during the event."
             ]
         },
         {
@@ -52,34 +72,43 @@ const schedule: dateItem[] = [{
             ]
         },
         {
-            time: "1:00pm - 4:20pm",
+            time: "1:00pm - 4:30pm",
             items: [
                 "PFOS/PFOA Technical Seminar*"
             ]
         },
         {
+            time: "1:00pm - 4:30pm",
+            items: [
+                <div key="gen-ses"><span className="font-bold">The Perils of Theater Nuclear Escalation War Game</span> - Main Ballroom - Presented by South Dakota Ellsworth Development Authority</div>
+            ]
+        },
+        {
             time: "1:00pm",
             items: [
-                "War Games* Kickoff"
+                "War Game* Kickoff",
+                <div key="gen-ses"><span className="font-bold">General Timothy Ray</span>, USAF (Ret.), President & Chief Executive Office, Business Executives for National Security - Main Ballroom</div>
             ]
         },
         {
             time: "1:15pm - 4:20pm",
             items: [
-                "The Perils of Theater Nuclear Escalation War Games, to feature panels of participants actively participating in a war game simulation. Panels will consist of military and civilian panelists. Simulation will demonstrate the complexity of a potential conflict with a peer nation and the challenges the United States would encounter."
+                "War Game Begins",
+                <div key="gen-ses"><span className="font-bold">Dr. Christopher Yeaw</span>, PhD, Associate Executive Director for Strategic Deterrence and Nuclear Programs</div>,
+                "War Game Scenario: Based on a near-peer, nuclear-capable INDO-PACOM threat as the perils inherent in theater nuclear employment based on a real-world threat with realistic “Blue Team” inputs. This exercise will be the realization of how vulnerable our nation may be in confronting an adversary that can capably execute nuclear escalation."
             ]
         },
         {
-            time: "4:30pm - 5:00pm",
+            time: "4:30pm",
             items: [
-                "Featured Speaker - Main Ballroom"
+                "Opening General Session - Main Ballroom",
+                <div key="gen-ses"><span className="font-bold">Brig. Gen. Gentry W. Boswell</span>, USAF (Ret.), Vice President of Defense Industry Operations at VRC Metal Systems</div>
             ]
         },
         {
             time: "5:00pm - 7:00pm",
             items: [
                 "South Dakota Mines Social- Foyer",
-                "Vendor Booths Open"
             ]
         }
     ]
@@ -99,6 +128,12 @@ const schedule: dateItem[] = [{
         date: "Thursday, April 11, 2024",
         items: [
             {
+                time: "6:30am",
+                items: [
+                    "Doors open"
+                ]
+            },
+            {
                 time: "7:00am",
                 items: [
                     "Networking/Coffee Social - Foyer"
@@ -107,31 +142,33 @@ const schedule: dateItem[] = [{
             {
                 time: "8:00am",
                 items: [
-                    "Opening Ceremonies / Pledge of Allegiance",
-                    "To include: South Dakota Mines Pep Band/Honor Guard/National Anthem"
+                    "General Session - Main Ballroom",
+                    "Welcome",
+                    <div key="dusty"><span className="font-bold">Congressman Dusty Johnson</span>, via video</div>,
+                    <div key="mark"><span className="font-bold">Major General Mark Morrell</span>, SDNG Adjutant General</div>
                 ]
             },
             {
-                time: "8:15am",
-                items: [
-                    "Featured Speakers: Congressman Dusty Johnson (via video)",
-                    "Maj Gen Morrell, SDNG AG"
-                ]
-            },
-            {
-                time: "9:00am - 9:50am",
+                time: "9:00am",
                 items: [
                     "Track Session A"
                 ]
             },
             {
-                time: "10:00am - 10:50am",
+                time: "10:am",
+                items: [
+                    "General Session - Main Ballroom",
+                    <div key="*"><span className="font-bold">Sean Jackson</span> VP, Deputy Program Manager, Northrop Grumman* </div>
+                ]
+            },
+            {
+                time: "10:30am",
                 items: [
                     "Connection Break - Foyer"
                 ]
             },
             {
-                time: "11:00am - 11:50am",
+                time: "11:00am",
                 items: [
                     "Track Session B"
                 ]
@@ -139,32 +176,39 @@ const schedule: dateItem[] = [{
             {
                 time: "12:00pm",
                 items: [
-                    "MAC Chow Hall Luncheon",
-                    "Featured Speaker: Lt Gen Caroline Miller, HAF/A1"
-                ]
+                    <div key="chow"><span className="font-bold">Black Hills MAC Chow Hall Luncheon</span> - Main Ballroom</div>,
+                    "Social & buffet lunch",
+                    <div key="welcome">Welcome: <span className="font-bold">Tim Houghton</span>, HS Precision, CFO, Black Hills Symposium Chair</div>,
+                    <div key="nancy">Featured Speaker: <span className="font-bold">Nancy Balkus</span>, P.E., Deputy Assistant Secretary of the Air Force for
+                        Environment, Safety and Infrastructure, Headquarters USAF</div>,
+                    <div key="caroline">Featured Speaker: <span className="font-bold">Lt Gen Caroline Miller</span>, Deputy Chief of Staff for Manpower Personnel and
+                        Services, Headquarters USAF</div>
+
+]
             },
             {
-                time: "1:30pm - 2:20pm",
+                time: "1:30pm",
                 items: [
                     "Track Session C"
                 ]
             },
             {
-                time: "2:30pm - 3:20pm",
+                time: "2:30pm",
                 items: [
                     "Track Session D"
                 ]
             },
             {
-                time: "3:30pm - 3:55pm",
+                time: "3:30pm",
                 items: [
-                    "B21 Raider Update - Col. Derek Oakley, Commander of the 28th Bomb Wing, EAFB"
+                    "B21 Raider Update",
+                    <div key="derek"><span className="font-bold">Col. Derek Oakley</span>, 28th Bomb Wing Commander - Main Ballroom</div>
                 ]
             },
             {
                 time: "4:00pm - 5:00pm",
                 items: [
-                    "Elevate and HS Precision Social - Foyer",
+                    "Social - Presented by Elevate Rapid City & HS Precision - Foyer",
                     "Prize Drawings"
                 ]
             },
@@ -172,12 +216,24 @@ const schedule: dateItem[] = [{
                 time: "5:30pm",
                 items: [
                     "Tours depart",
-                    "SD Mines Lab Tour",
+                    "South Dakota School of Mines & Technology, Cold Spray Lab Tour\n",
                     "Mt. Rushmore & Dinner Tour"
                 ]
             }
         ]
-    }];
+    },
+    {
+        date: "",
+        items: [
+            {
+                time: "",
+                items: [
+                    <div key="**">* <span className="font-bold">Tentative</span></div>
+                ]
+            }
+        ]
+    },
+];
 
 const trackSessions = [
     {
@@ -196,7 +252,7 @@ const trackSessions = [
                 title: "Commercialization"
             },
             {
-                time: "3:00",
+                time: "2:30",
                 title: "Policy"
             }
         ]
@@ -206,19 +262,19 @@ const trackSessions = [
         items: [
             {
                 time: "9:00",
-                title: "PFOS/PFOA 101 Remediation Challenges MilCon (PDH)"
+                title: "Rural Water Systems"
             },
             {
                 time: "11:00",
-                title: "Partnerships panel (PFAS & MilCon): promoting academic, industry, and government collaborations (PDH)"
+                title: "Innovation — R&D, Technology, Transfer & Opportunities"
             },
             {
                 time: "1:30",
-                title: "PFOS/PFOA regional perspectives (PDH)"
+                title: "Collaboration — Government, Industry, Academic Partnerships"
             },
             {
-                time: "3:00",
-                title: "PFOS/PFOA Technology Development and funding opportunities (PDH)"
+                time: "2:30",
+                title: "Military Construction, PFAS, Sustainability"
             }
         ]
     },
@@ -247,16 +303,16 @@ const trackSessions = [
         title: "Partnering with the DOD/General Contractor",
         items: [
             {
+                time: "9:00",
+                title: "Design & Construction Opportunities"
+            },
+            {
                 time: "11:00",
-                title: "Contracting PFOS/Military/Sustainability"
+                title: "AI & BIM — What it means for A/Es and Contractors"
             },
             {
                 time: "1:30",
-                title: "Contracting Training"
-            },
-            {
-                time: "3:00",
-                title: "Elevate Primes"
+                title: "Match Making Opportunities (DOD, Primes)"
             }
         ]
     }
@@ -273,11 +329,13 @@ const Agenda = () => {
                         <p className="text-2xl font-bold mb-4">{x.date}</p>
                         <div>
                             {x.items.map((y) => {
-                                return <div className="mb-4" key={x.date + y.time}>
+                                const key = (y.items[0] as ReactElement).key ? (y.items[0] as ReactElement).key : y.items[0];
+
+                                return <div className="mb-4" key={x.date + y.time + key}>
                                     <p className="font-bold text-xl">{y.time}</p>
                                     <div className={`px-4`}>
                                         {y.items.map(z => {
-                                            return <div key={y.time + z} className="mb-4">
+                                            return <div key={y.time + (z as ReactElement).key ? (z as ReactElement).key : z as string} className="mb-4">
                                                 {z}
                                             </div>
                                         })}
@@ -289,7 +347,7 @@ const Agenda = () => {
                 })
             }
         </div>
-        <div className="bg-primary-100 p-7 sticky top-9 w-96 max-w-full shadow-md">
+        <div className="bg-primary-100 p-7 sticky top-9 max-w-screen-sm shadow-md">
             <h2 className="text-4xl font-bold text-primary-600 mb-4 bg-primary-200 p-1">Track Sessions</h2>
             {
                 trackSessions.map(x => {
