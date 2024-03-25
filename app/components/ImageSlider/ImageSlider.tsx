@@ -34,6 +34,7 @@ const ImageSlider = () => {
         autoplay: true,
         infinite: true,
         draggable: false,
+        autoplaySpeed: 5000,
         speed: 700,
         slidesToShow: Math.ceil(screenWidth / 600),
         adaptiveHeight: true,

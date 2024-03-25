@@ -4,6 +4,16 @@ import ImageAndText from "@/app/components/ImageAndText";
 import Agenda from "@/app/components/Agenda";
 import Image from "next/image";
 import Link from "next/link";
+import oakley from "@/public/col-oakley.jpg"
+import dusty from "@/public/dusty-johnson.jpg"
+import boswell from "@/public/boswell.jpg"
+import miller from "@/public/miller.jpg";
+import morrell from "@/public/morrell.jpg";
+import ray from "@/public/ray.jpg";
+import yeaw from "@/public/yeaw.jpg";
+
+import BioSlider from "@/app/components/BioSlider";
+import QuoteBlockCircle from "@/app/components/QuoteBlock/QuoteBlockCircle";
 
 export default function About() {
     return (
@@ -65,6 +75,109 @@ export default function About() {
                         of a
                         premier event focused on the growing defense industry of the area.
                     </p>
+                </div>
+            </div>
+            <div className="bg-primary-200 w-full flex justify-center p-12">
+                <div className="max-w-screen-xl text-primary-900 mt-16 mb-16">
+                    <BioSlider>
+                        <div className="mt-8 mb-12">
+                            <QuoteBlockCircle img={dusty}>
+                                <h2 className="font-bold text-3xl mb-4">Dusty Johnson</h2>
+                                <p className="text-lg">Dusty Johnson brings an energetic and optimistic leadership style
+                                    to Washington as South Dakota’s lone voice in the U.S. House of Representatives. As
+                                    a “policy guy,” he works hard to be a knowledgeable and value-added member on issues
+                                    related to his committee assignments: Agriculture, Transportation & Infrastructure,
+                                    and the Select Committee on China.
+                                </p>
+                            </QuoteBlockCircle>
+                        </div>
+                        <div className="mt-8 mb-12">
+                            <QuoteBlockCircle img={boswell}>
+                                <h2 className="font-bold text-3xl text-left mb-4">Brig. Gen. Gentry W. Boswell, USAF
+                                    (Ret.) - Vice
+                                    President, Defense Industry Business Development VRC Metal Systems</h2>
+                                <p className="text-lg">Brigadier General Gentry W. Boswell currently serves as a Senior
+                                    Executive in the Defense Industry as a Vice President and also serves on multiple
+                                    Corporate Boards. As a veteran he served over 31 years in the US Air Force with
+                                    extensive leadership experience including two wing commands, two tours in the
+                                    Pentagon and over 4,800 flight hours in various aircraft including over 500 hours of
+                                    combat time. Brig Gen Boswell brings invaluable expertise to his role. Prior to
+                                    this, he served in the Pentagon as the Director of Special Programs for the Air
+                                    Force Plans and Programs Director on the Air Staff.
+                                </p>
+                            </QuoteBlockCircle>
+                        </div>
+                        <div className="mt-8 mb-12">
+                            <QuoteBlockCircle img={miller}>
+                                <h2 className="font-bold text-3xl text-left mb-4">Lt. Gen. Caroline Miller, HAF/A1</h2>
+                                <p className="text-lg">Lt. Gen. Caroline Miller is the Deputy Chief of Staff for
+                                    Manpower, Personnel, and Services at Headquarters U.S. Air Force in Arlington,
+                                    Virginia. In this role, she oversees comprehensive plans and policies for military
+                                    and civilian personnel management, including end strength, education, compensation,
+                                    and worldwide Air Force services. With over two decades of experience, she has held
+                                    various command and staff positions, including Commander of the 502nd Air Base Wing
+                                    at Joint Base San Antonio, Texas.
+                                </p>
+                            </QuoteBlockCircle>
+                        </div>
+
+                        <div className="mt-8 mb-12">
+                            <QuoteBlockCircle img={morrell}>
+                                <h2 className="font-bold text-3xl text-left mb-4">Maj. Gen. Mark Morrell, SDNG</h2>
+                                <p className="text-lg">Maj. Gen. (SD) Mark R. Morrell, the 23rd Adjutant General of the
+                                    South Dakota National Guard, leads 4,300 Soldiers and Airmen in 21 communities. With
+                                    a background as an F-16 Viper pilot, he brings over 20 years of military experience,
+                                    including global deployments and leadership roles within the Air National Guard.
+                                </p>
+                            </QuoteBlockCircle>
+                        </div>
+
+                        <div className="mt-8 mb-12">
+                            <QuoteBlockCircle img={oakley}>
+                                <h2 className="font-bold text-3xl mb-4">Col. Derek C. Oakley</h2>
+                                <p className="text-lg">Col. Derek C. Oakley commands the 28th Bomb Wing at Ellsworth Air
+                                    Force
+                                    Base, overseeing the
+                                    largest B-1 combat wing in the U.S. Air Force with 12,000 personnel and families.
+                                    With
+                                    extensive flight experience, including over 3,400 hours, he provides combat-ready
+                                    aircraft
+                                    and crews for global missions. Col. Oakley has held various leadership positions and
+                                    commanded the 28th Operations Group, contributing significantly to the Air Force’s
+                                    top
+                                    acquisition program, the B-21 Raider.</p>
+                            </QuoteBlockCircle>
+                        </div>
+
+                        <div className="mt-8 mb-12">
+                            <QuoteBlockCircle img={ray}>
+                                <h2 className="font-bold text-3xl text-left mb-4">Gen. Timothy Ray, USAF (Ret.)</h2>
+                                <p className="text-lg">General Timothy Ray, USAF (Ret.), a highly decorated Four-Star
+                                    General, led Air Force Global Strike Command and Air Forces Strategic-Air at United
+                                    States Strategic Command. He shaped Air Force modernization priorities and ensured
+                                    operational readiness during the COVID pandemic. With extensive experience in joint
+                                    military operations, he previously served as Deputy Commander of US European
+                                    Command. General Ray holds advanced degrees in Aviation Sciences, Strategic Studies,
+                                    and Human Factors Engineering, and is widely respected for his leadership.
+                                </p>
+                            </QuoteBlockCircle>
+                        </div>
+
+                        <div className="mt-8 mb-12">
+                            <QuoteBlockCircle img={yeaw}>
+                                <h2 className="font-bold text-3xl text-left mb-4">Dr. Christopher Yeaw</h2>
+                                <p className="text-lg">Dr. Christopher Yeaw is the Associate Executive Director for
+                                    Strategic Deterrence and Nuclear Programs at the National Strategic Research
+                                    Institute (NSRI), part of the University of Nebraska and a U.S. Strategic Command
+                                    University Affiliated Research Center (UARC). With a background spanning nuclear
+                                    policy, defense programs, and academia, he brings extensive expertise to support
+                                    U.S. government missions in strategic deterrence, nuclear issues, and counter-WMD
+                                    efforts.
+                                </p>
+                            </QuoteBlockCircle>
+                        </div>
+                    </BioSlider>
+
                 </div>
             </div>
             <Link href="https://www.northropgrumman.com/">
