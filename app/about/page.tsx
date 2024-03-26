@@ -78,7 +78,7 @@ export default function About() {
                 </div>
             </div>
             <div className="bg-primary-200 w-full flex justify-center p-12">
-                <div className="max-w-screen-xl text-primary-900 mt-16 mb-16">
+                <div className="max-w-screen-xl w-full text-primary-900 mt-16 mb-16">
                     <BioSlider>
                         <div className="mt-8 mb-12">
                             <QuoteBlockCircle img={dusty}>

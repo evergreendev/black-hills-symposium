@@ -1,7 +1,7 @@
 import Image, {StaticImageData} from "next/image";
 
 const QuoteBlockCircle = ({children, img}: Readonly<{ img: string | StaticImageData, children: React.ReactNode }>) => {
-    return <div className="flex flex-wrap items-start justify-start lg:justify-center -mr-48">
+    return <div className="flex flex-wrap items-start justify-start lg:justify-center lg:-mr-48">
         <div className="
         lg:text-lg
         lg:w-6/12
@@ -14,7 +14,7 @@ const QuoteBlockCircle = ({children, img}: Readonly<{ img: string | StaticImageD
         lg:pl-9
         z-20
         text-primary-900
-        text-justify">
+        sm:text-justify">
             <div className="
             border-l-2
             border-primary-100
@@ -24,7 +24,7 @@ const QuoteBlockCircle = ({children, img}: Readonly<{ img: string | StaticImageD
                 {children}
             </div>
         </div>
-        <Image src={img} alt="" className="-translate-y-8 shadow-lg shadow-primary-300 rounded-full w-56 aspect-square object-cover object-right-top max-w-sm z-30 md:ml-6 lg:-translate-x-24"/>
+        <Image src={img} alt="" className="-translate-y-8 shadow-lg shadow-primary-300 sm:rounded-full w-56 aspect-square object-cover object-right-top max-w-sm z-30 md:ml-6 lg:-translate-x-24"/>
     </div>
 }
 
