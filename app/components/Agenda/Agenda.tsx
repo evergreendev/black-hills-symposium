@@ -155,14 +155,7 @@ const schedule: dateItem[] = [{
                 ]
             },
             {
-                time: "10:am",
-                items: [
-                    "General Session - Main Ballroom",
-                    <div key="*"><span className="font-bold">Sean Jackson</span> VP, Deputy Program Manager, Northrop Grumman* </div>
-                ]
-            },
-            {
-                time: "10:30am",
+                time: "10:00am",
                 items: [
                     "Connection Break - Foyer"
                 ]
@@ -201,6 +194,8 @@ const schedule: dateItem[] = [{
             {
                 time: "3:30pm",
                 items: [
+                    "General Session - Main Ballroom",
+                    <div key="*"><span className="font-bold">Sean Jackson</span> VP, Deputy Program Manager, Northrop Grumman</div>,
                     "B21 Raider Update",
                     <div key="derek"><span className="font-bold">Col. Derek Oakley</span>, 28th Bomb Wing Commander - Main Ballroom</div>
                 ]
@@ -221,18 +216,7 @@ const schedule: dateItem[] = [{
                 ]
             }
         ]
-    },
-    {
-        date: "",
-        items: [
-            {
-                time: "",
-                items: [
-                    <div key="**">* <span className="font-bold">Tentative</span></div>
-                ]
-            }
-        ]
-    },
+    }
 ];
 
 const trackSessions = [
