@@ -59,20 +59,20 @@ const Header = () => {
 
     return (
         <>
-            <header className="bg-primary-800 flex justify-end items-center w-full lg:h-[125px] relative z-50">
-                <div className="flex flex-col lg:flex-row justify-between w-full items-center max-w-[1800px]">
-                    <Link href="/" className="relative lg:pl-44 lg:mr-28 flex overflow-hidden lg:overflow-visible">
-                        <Image className="p-1 lg:absolute w-24 h-24 sm:h-auto sm:w-40 left-0 mr-7 z-20" src={logoImg}
+            <header className="bg-primary-800 flex flex-wrap justify-end items-center w-full xl:h-[125px] relative z-50">
+                <div className="flex flex-col flex-wrap lg:flex-row justify-between w-full items-center max-w-[1800px]">
+                    <Link href="/" className="relative lg:pl-44 flex overflow-hidden lg:overflow-visible xl:w-5/12">
+                        <Image className="p-1 xl:absolute w-24 h-24 sm:h-auto sm:w-40 left-0 mr-7 z-20" src={logoImg}
                                alt=""/>
-                        <h1 className={`${inika.className} text-2xl pt-2.5 xl:text-4xl font-bold pr-10 sm:pr-0`}>Northrop
+                        <h1 className={`${inika.className} text-3xl pt-2.5 xl:text-3xl font-bold pr-10 sm:pr-0`}>Northrop
                             Grumman Black
-                            Hills<br
-                                className="hidden sm:block"/>
+                            Hills <br
+                                className="hidden 2xl:block"/>
                             Defense & Industry Symposium
                         </h1>
                     </Link>
                     <nav
-                        className="hidden pl-4 lg:pr-52 md:w-6/12 md:flex justify-between relative mt-3 z-30">
+                        className="hidden ml-auto bg-primary-800 pl-4 2xl:pr-14 xl:w-7/12 w-full md:flex justify-between relative mt-3 z-30">
                         {
                             navArr.map(item => {
                                 return (
