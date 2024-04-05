@@ -87,6 +87,7 @@ const schedule: dateItem[] = [{
             time: "1:00pm",
             items: [
                 "War Game* Kickoff",
+                <div key="ellis"><span className="font-bold">Brig. Gen. Jonathan Ellis</span>, USAF (Ret.) – Opening video – “The Watch”</div>,
                 <div key="gen-ses"><span className="font-bold">General Timothy Ray</span>, USAF (Ret.), President & Chief Executive Office, Business Executives for National Security - Main Ballroom</div>
             ]
         },
@@ -195,7 +196,7 @@ const schedule: dateItem[] = [{
                 time: "3:30pm",
                 items: [
                     "General Session - Main Ballroom",
-                    <div key="*"><span className="font-bold">Sean Jackson</span> VP, Deputy Program Manager, Northrop Grumman</div>,
+                    <div key="*"><span className="font-bold">Sean Jackson</span> VP, B-21 Program Manager, Northrop Grumman</div>,
                     "B21 Raider Update",
                     <div key="derek"><span className="font-bold">Col. Derek Oakley</span>, 28th Bomb Wing Commander - Main Ballroom</div>
                 ]

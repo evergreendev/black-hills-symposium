@@ -11,6 +11,7 @@ import miller from "@/public/miller.jpg";
 import morrell from "@/public/morrell.jpg";
 import ray from "@/public/ray.jpg";
 import yeaw from "@/public/yeaw.jpg";
+import sean from "@/public/sean.jpg";
 
 import BioSlider from "@/app/components/BioSlider";
 import QuoteBlockCircle from "@/app/components/QuoteBlock/QuoteBlockCircle";
@@ -50,13 +51,13 @@ export default function About() {
                         high-level military speaker at 4:30 p.m. At 5 p.m., South Dakota School of Mines will host a
                         welcome reception for all attendees in the foyer of The Box Elder Events Center.</p>
 
-                    <p>Day 2 (April 11) will feature general sessions in addition to16 different breakout session
+                    <p>Day 2 (April 11) will feature general sessions in addition to 16 different breakout session
                         offerings
                         throughout the day. Featured speakers include Congressman Dusty Johnson, Major General Mark
                         Morrell
                         (South Dakota National Guard Adjutant General), Lieutenant General Caroline Miller (Air Force
                         Deputy
-                        Chief of Staff for Manpower, Personnel and Services), and Colonel Derek Oakley (Ellsworth Air
+                        Chief of Staff for Manpower, Personnel and Services), Sean Jackson (VP, B-21 Program Manager, Northrop Grumman), and Colonel Derek Oakley (Ellsworth Air
                         Force
                         Base Commander).</p>
                 </div>
@@ -88,6 +89,17 @@ export default function About() {
                                     a “policy guy,” he works hard to be a knowledgeable and value-added member on issues
                                     related to his committee assignments: Agriculture, Transportation & Infrastructure,
                                     and the Select Committee on China.
+                                </p>
+                            </QuoteBlockCircle>
+                        </div>
+                        <div className="mt-8 mb-12">
+                            <QuoteBlockCircle img={sean}>
+                                <h2 className="font-bold text-3xl mb-4">Sean Jackson, VP, B-21 Program Manager, Northrop
+                                    Grumman</h2>
+                                <p className="text-lg">Sean Jackson is Northrop Grumman Aeronautics Systems’ VP and B-21
+                                    program manager. With over 30 years of experience, including a distinguished Air
+                                    Force career, he oversees the production of advanced aeronautics systems, driving
+                                    innovation to meet contract commitments.
                                 </p>
                             </QuoteBlockCircle>
                         </div>
