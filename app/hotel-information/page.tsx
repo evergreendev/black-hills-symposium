@@ -26,7 +26,7 @@ export default function About() {
                         </p>
                         <p>
                             <Link
-                                href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.marriott.com_default.mi&d=DwMGaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=lokX0gfhaxKZP2QQCHQlGco2VkY5cwuYvPw6GCP4FGw&m=rXR2xvbUfa4UWuqpOLbK90fVlEXpTKIF1OEa5ih1CxVYSmEx1cZLDkaTL3csD727&s=NATftFts1D463qofDZlPVK1LAWXy_atnyK3mBURd2wg&e="
+                                href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1719931537591&key=GRP&app=resvlink"
                                 className="flex justify-center my-4
                         ">
                                 <span
