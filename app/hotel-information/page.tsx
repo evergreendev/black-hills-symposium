@@ -18,13 +18,11 @@ export default function About() {
                     <div className="w-full max-w-prose text-primary-900 text-xl space-y-3.5">
                         <h2 className="font-bold text-5xl mb-3 font-serif">Hotel Information</h2>
                         <p>
-                            We are excited to work with The Box Elder Event Center to host guests during the 2024
-                            Black
-                            Hills Defense & Industry Symposium.
+                            We are excited to work with The Box Elder Event Center to host guests during the 2025 Black Hills Defense & Industry Symposium.
                         </p>
                         <p>
                             A room block has been created and is ready for reservations. To book, use the link below or
-                            contact the Courtyard at <Link className="text-nowrap" href="tel:605-791-0945">(605) 791-0945</Link>, mention the event name when booking.
+                            contact the Courtyard at <Link className="text-nowrap" href="tel:605-791-0945">(605) 791-0945</Link>, mention “2025 Black Hills Defense & Industry Symposium” when booking.
                         </p>
                         <p>
                             <Link
