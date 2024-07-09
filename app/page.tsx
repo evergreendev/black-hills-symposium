@@ -3,7 +3,7 @@ import agendaImg from "../public/agenda.jpg";
 import exhibitorImg from "../public/exhibitor.jpg";
 import hotelImg from "../public/hotel-info.jpg"
 import gettingAroundImg from "../public/rushmore.jpg";
-import speakerImg from "../public/joseph-wright.jpg";
+import speakerImg from "../public/tim.jpg";
 import Link from "next/link";
 import NavCard from "@/app/components/NavCard/NavCard";
 import QuoteBlock from "@/app/components/QuoteBlock";
@@ -78,18 +78,23 @@ export default function Home() {
             <div className="max-w-screen-xl text-primary-900 mt-16 mb-16">
                 <QuoteBlock img={speakerImg}>
                     <p className="text-xl mb-5">
-                        “We hope that you find great value in the exceptional presenters and content our planning
-                        committee has worked so hard to deliver. This event will welcome business, academic, and
-                        military leaders from our region and across the globe. We hope you dive right in and engage in
-                        the exchange of ideas that have been planned, so that we can all benefit from your attendance. I
-                        am certain, that this event will allow all who attend to gain a greater understanding of the
-                        challenges our fighting women and men face, and how we as a community and country, can work
-                        together to ensure lasting freedom.”
+                        “Welcome to the Black Hills Defense Symposium.
+                        <br/>
+                        <br/>
+                        This event is designed to bring the best and the brightest from all over the country to the
+                        Black Hills in order to solve the problems our current military faces. It is also to inform our
+                        community of current events happening at our local bases and around the country. Esteemed
+                        members from the United States military, research labs, colleges, elected officials, and
+                        industry leaders come together to pool and share their knowledge with the public. Each year
+                        hundreds of hours go into planning this event, with the end goal being attendees learning as
+                        much as possible. We hope that you take the knowledge that you gain from this event, and utilize
+                        it. Use it to improve your business, get government contracts, or further your research. Enjoy
+                        your time at the symposium and your time in our beautiful community. There is a lot to offer
+                        here so soak up as much as possible and we hope to see you at our future symposiums!”
                     </p>
                     <p className="text-xs font-bold">
-                        Joseph Wright, J.D.<br/>
-                        Associate Vice President for Research Economic Development<br/>
-                        South Dakota Mines
+                        Tim
+                        Houghton,<br/> Vice President & Chief Operating Officer,<br/> H-S Precision
                     </p>
                 </QuoteBlock>
             </div>
