@@ -26,7 +26,7 @@ export default function About() {
                     className=" bottom-0 md:right-1/2 w-full max-w-screen-xl bg-primary-800 bg-opacity-90 absolute md:translate-x-1/2 md:translate-y-1/2 md:flex justify-between">
                 </div>
             </div>
-            <div className="pl-2 w-full pb-4 pt-4 mt-auto mb-auto border-b-2 border-primary-300 bg-gray-100">
+            <div className="pl-2 w-full pb-4 pt-4 mt-auto mb-auto border-b-2 border-primary-300">
                 <p className="font-bold font-sans text-4xl text-primary-600 text-center">2025 Schedule Coming Soon</p>
             </div>
         </main>
