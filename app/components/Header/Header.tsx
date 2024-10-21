@@ -24,9 +24,19 @@ const navArr: {item: item, subItems?: item[]}[] = [
     },
     {
       item: {
-          title: "Exhibitor Information",
-          url: "/exhibitor-information"
-      }
+          title: "Get Involved",
+          url: "/exhibitor-information",
+      },
+        subItems: [
+            {
+                title: "Exhibitor Information",
+                url: "/exhibitor-information",
+            },
+            {
+                title: "Sponsorship Opportunities",
+                url: "/sponsorship-opportunities",
+            }
+        ]
     },
     {
         item: {
@@ -38,7 +48,13 @@ const navArr: {item: item, subItems?: item[]}[] = [
         item: {
             title: "About & Agenda",
             url: "/about",
-        }
+        },
+        subItems:[
+            {
+                title: "2024 Symposium",
+                url: "2024-about"
+            }
+        ]
     },
     {
         item: {
