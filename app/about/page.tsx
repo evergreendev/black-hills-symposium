@@ -192,9 +192,9 @@ export default function About() {
 
                 </div>
             </div>
-            <Link href="https://www.northropgrumman.com/">
+            {/*<Link href="https://www.northropgrumman.com/">
                 <Image className="w-96 p-4" src={northropBlue} alt="Northrop Grumman"/>
-            </Link>
+            </Link>*/}
             <div id="agenda" className="w-full flex justify-center px-12 bg-primary-900">
                 <div className="text-primary-900 max-w-screen-xl bg-white p-7">
                     <Agenda/>

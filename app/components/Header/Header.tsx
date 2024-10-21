@@ -64,8 +64,8 @@ const Header = () => {
                     <Link href="/" className="relative lg:pl-44 flex overflow-hidden lg:overflow-visible xl:w-5/12">
                         <Image className="p-1 xl:absolute w-24 h-24 sm:h-auto sm:w-40 left-0 mr-7 z-20" src={logoImg}
                                alt=""/>
-                        <h1 className={`${inika.className} text-3xl pt-2.5 xl:text-4xl font-bold pr-10 sm:pr-0`}>Northrop
-                            Grumman Black
+                        <h1 className={`${inika.className} text-3xl pt-2.5 xl:text-4xl font-bold pr-10 sm:pr-0`}>{/*Northrop
+                            Grumman */}Black
                             Hills
                             Defense & Industry Symposium
                         </h1>

@@ -11,7 +11,7 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: "Northrop Grumman Black Hills Defense & Industry Symposium",
+    title: "Black Hills Defense & Industry Symposium",
     description: "The Black Hills Defense and Industry Symposium is coming to The Box Elder Event Center, April 9 & 10, 2025. This annual event will bring leaders of academia, research, industry, military and the Black Hills communities together for meaningful dialogue on the importance of defense investment in western South Dakota. Leaders will discuss how attendees can contribute to solutions for stronger national defense and bolstered regional economic development."
 }
 
@@ -29,7 +29,7 @@ export default function Home() {
                     className=" bottom-0 md:right-1/2 w-full max-w-screen-xl bg-primary-800 bg-opacity-90 absolute md:translate-x-1/2 md:translate-y-1/2 md:flex justify-between">
                     <div className="p-4">
                         <h2 className="font-bold text-3xl lg:text-5xl mb-1 lg:mb-2 lg:uppercase">
-                            Northrop Grumman <br className="hidden sm:block"/>Black Hills Defense
+                            {/*Northrop Grumman <br className="hidden sm:block"/>*/}Black Hills Defense
                             <br className="hidden sm:block"/>& Industry Symposium:
                         </h2>
                         <h2 className="text-2xl lg:text-4xl">
