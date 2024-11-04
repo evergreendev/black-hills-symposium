@@ -19,7 +19,7 @@ const navArr: {item: item, subItems?: item[]}[] = [
     {
         item: {
             title: "Register",
-            url: "https://www.etix.com/ticket/p/78715410/black-hills-defense-industry-symposium-box-elder-the-box-convention-center"
+            url: "https://cvent.me/Ng2owB"
         }
     },
     {

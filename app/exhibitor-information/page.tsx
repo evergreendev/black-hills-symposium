@@ -67,7 +67,7 @@ export default function About() {
                     {/*<div className="flex align-middle mt-7">
                         <Link
                             className="m-auto bg-primary-900 hover:bg-primary-600 transition-colors font-bold text-primary-100 p-2 px-8 rounded text-2xl uppercase"
-                            href="https://www.etix.com/ticket/p/78715410/black-hills-defense-industry-symposium-box-elder-the-box-convention-center">Register</Link>
+                            href="https://cvent.me/Ng2owB">Register</Link>
                     </div>*/}
 
 

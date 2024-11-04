@@ -66,7 +66,7 @@ export default function Home() {
 
                         <div className="flex flex-wrap">
                             <NavCard img={registerNowImg} title="Register Now"
-                                     url="https://www.etix.com/ticket/p/78715410/black-hills-defense-industry-symposium-box-elder-the-box-convention-center"/>
+                                     url="https://cvent.me/Ng2owB"/>
                             <NavCard img={agendaImg} title="Agenda" url="/about#agenda"/>
                             <NavCard img={exhibitorImg} title="Become an Exhibitor"
                                      url="/exhibitor-information"/>
