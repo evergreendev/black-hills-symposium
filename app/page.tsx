@@ -53,7 +53,8 @@ export default function Home() {
                     <div className="max-w-screen-xl flex justify-between w-full flex-wrap p-8">
 
                         <div className="pl-2 w-full pb-4 pt-4 mb-14 border-b-2 border-primary-300 bg-gray-100">
-                            <p className="font-bold font-sans text-4xl text-primary-600 text-center">Check back for updates</p>
+                            <p className="font-bold font-sans text-4xl text-primary-600 text-center">Check back for
+                                updates</p>
                         </div>
 
                         <div className="pl-2 w-full pb-1 pt-4 mb-14 border-b-2 border-primary-300">
@@ -101,6 +102,15 @@ export default function Home() {
                         Houghton,<br/> Vice President & Chief Operating Officer,<br/> H-S Precision
                     </p>
                 </QuoteBlock>
+            </div>
+            <div className="bg-primary-100 p-16 w-full">
+                <div className="flex justify-center w-full max-w-screen-lg mx-auto">
+                    <iframe className="w-full aspect-video"
+                            src="https://www.youtube.com/embed/XTRIucav8vk?si=bmW-SgXXJeIr1gvP"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                </div>
             </div>
         </main>
     );
