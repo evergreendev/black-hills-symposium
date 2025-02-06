@@ -26,8 +26,21 @@ export default function About() {
                     className=" bottom-0 md:right-1/2 w-full max-w-screen-xl bg-primary-800 bg-opacity-90 absolute md:translate-x-1/2 md:translate-y-1/2 md:flex justify-between">
                 </div>
             </div>
-            <div className="pl-2 w-full pb-4 pt-4 mt-auto mb-auto border-b-2 border-primary-300">
-                <p className="font-bold font-sans text-4xl text-primary-600 text-center">2025 Schedule Coming Soon</p>
+            <div className="font-bold font-sans text-2xl text-primary-600 pl-2 w-full pb-4 pt-4 mt-auto mb-auto border-b-2 border-primary-300">
+                <div className="max-w-prose mx-auto">
+                    <p>Topics to Include:</p>
+                    <ul className="list-disc ml-6 mb-4">
+                        <li>Resilience & Reliability, War Games Scenario</li>
+                        <li>Energy Infrastructure</li>
+                        <li>The Link Between Family Quality of Life & Force Readiness</li>
+                        <li>Cyber Security</li>
+                        <li>Doing Business with the Government</li>
+                        <li>Intersection of National Security & Foreign Trade</li>
+                        <li>And more!</li>
+                    </ul>
+                    <p>Check back for updates</p>
+                </div>
+
             </div>
         </main>
     );

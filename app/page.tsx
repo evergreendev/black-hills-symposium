@@ -70,7 +70,7 @@ export default function Home() {
                                      url="https://cvent.me/Ng2owB"/>
                             <NavCard img={agendaImg} title="Agenda" url="/about#agenda"/>
                             <NavCard img={exhibitorImg} title="Become an Exhibitor"
-                                     url="/exhibitor-information"/>
+                                     url="https://web.cvent.com/event/01ba3404-86c0-4fbd-b440-56207415d30e/regProcessStep1:88a95a6f-8472-427b-a196-fd00ede978b2"/>
                             <NavCard img={hotelImg} title="Hotel Information"
                                      url="/hotel-information"/>
                             <NavCard img={gettingAroundImg} title="Getting Around"

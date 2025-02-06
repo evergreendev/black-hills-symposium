@@ -40,7 +40,7 @@ export default function About() {
                         leaders, academia, local, state, and federal officials, small business owners, entrepreneurs,
                         active-duty military members, military retirees, and veterans.
                         <div className="mt-4 rounded flex items-start justify-start">
-                            <Link className="bg-primary-600 hover:bg-primary-500 rounded p-2 px-5 text-white font-bold" href="#">Sponsor Today</Link>
+                            <Link className="bg-primary-600 hover:bg-primary-500 rounded p-2 px-5 text-white font-bold" href="https://web.cvent.com/event/01ba3404-86c0-4fbd-b440-56207415d30e/regProcessStep1:88a95a6f-8472-427b-a196-fd00ede978b2">Become an Exhibitor</Link>
                         </div>
                     </p>
                 </ImageAndText>

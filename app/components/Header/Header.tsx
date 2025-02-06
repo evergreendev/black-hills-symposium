@@ -34,7 +34,7 @@ const navArr: {item: item, subItems?: item[]}[] = [
             },
             {
                 title: "Sponsorship Opportunities",
-                url: "/sponsorship-opportunities",
+                url: "/2025 BH Defense and Industry Symposium Investor Package.pdf",
             }
         ]
     },
