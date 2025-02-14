@@ -51,18 +51,15 @@ export default function Home() {
                 className="bg-primary-100 bg-logo bg-[length:40vw] bg-no-repeat bg-[-13%_31%] border-t-8 border-primary-200 w-full flex justify-center  border-b-2 shadow-lg mb-5">
                 <div className="bg-primary-100 bg-opacity-70 w-full flex justify-center pt-20 pb-6">
                     <div className="max-w-screen-xl flex justify-between w-full flex-wrap p-8">
-
-                        <div className="pl-2 w-full pb-4 pt-4 mb-14 border-b-2 border-primary-300 bg-gray-100">
-                            <p className="font-bold font-sans text-4xl text-primary-600 text-center">Check back for
-                                updates</p>
-                        </div>
-
                         <div className="pl-2 w-full pb-1 pt-4 mb-14 border-b-2 border-primary-300">
-                            <p className="font-bold font-serif text-4xl text-primary-600">Bringing
-                                together
-                                industry and military
-                                leaders, as well as, Black Hills community members to
-                                discuss the importance of defense investment in Western South Dakota.</p>
+                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">The 2025 Black Hills Defense & Industry Symposium will bring together national, regional, and local leaders from industry, the military, and the community to explore the critical role of defense investments in western South Dakota.
+                            </p>
+                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">As a 2024 Great American Defense Community (GADC), the Black Hills Region continues to lead in military innovation and community partnerships. This symposium — hosted by the Black Hills Military Advisory Coalition (BHMAC) in partnership with Northrop Grumman — will highlight how defense investments strengthen both national security and local economies.
+                            </p>
+                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">Taking place April 9-10, 2025, in Box Elder, South Dakota, the event will feature insightful panel discussions, inspiring keynote speakers, and valuable networking opportunities, all focused on advancing collaboration between defense and industry.
+                            </p>
+                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">Don’t miss this opportunity to connect, collaborate, and contribute to the continued growth and strength of the Black Hills defense community.
+                            </p>
                         </div>
 
                         <div className="flex flex-wrap">
