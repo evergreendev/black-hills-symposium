@@ -21,8 +21,8 @@ export default function Home() {
             <div className="bg-dark w-full h-24 opacity-80 absolute top-0 z-10"/>
             <div className="max-h-full h-[1100px] w-full bg-hero bg-cover bg-center relative">
                 <div className="absolute right-0 top-1/2 p-2 bg-primary-900 bg-opacity-80">
-                    <h2 className="text-2xl"><span className="text-4xl font-bold">Senator Mike Rounds<br/></span> 2023
-                        Black Hills Defense & Industry Symposium</h2>
+                    <h2 className="text-2xl"><span className="text-4xl font-bold">Maj. Gen. Mark Morrell<br/></span> South Dakota National Guard
+                        <br/>2024 Black Hills Defense & Industry Symposium</h2>
                 </div>
 
                 <div

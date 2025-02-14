@@ -28,7 +28,7 @@ const config: Config = {
       },
       backgroundImage: {
         "logo": "url('../public/logo.png')",
-        "hero": "url('../public/home-hero.png')",
+        "hero": "url('../public/cover-image.jpg')",
         "exhibitor": "url('../public/exhibitor-bg.jpg')",
         "volunteer": "url('../public/volunteer.jpg')",
         "gettingAround": "url('../public/rushmore.jpg')",
