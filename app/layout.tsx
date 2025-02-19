@@ -7,7 +7,7 @@ import { GoogleAnalytics } from "@next/third-parties/google"
 
 
 export const metadata: Metadata = {
-    title: "Black Hills Defense & Industry Symposium",
+    title: "Black Hills Defense & Industry Symposium – Presented by Northrop Grumman",
     description: "Leading The National Defense Discussion",
 };
 

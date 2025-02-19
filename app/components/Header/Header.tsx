@@ -42,7 +42,13 @@ const navArr: {item: item, subItems?: item[]}[] = [
         item: {
             title: "Volunteer",
             url: "/volunteer"
-        }
+        },
+        subItems: [
+            {
+                title: "Volunteer Intake Form",
+                url: "https://tinyurl.com/DefenseSymposiumVolunteer2025"
+            }
+        ]
     },
     {
         item: {
@@ -83,7 +89,7 @@ const Header = () => {
                         <h1 className={`${inika.className} text-3xl pt-2.5 xl:text-4xl font-bold pr-10 sm:pr-0`}>{/*Northrop
                             Grumman */}Black
                             Hills
-                            Defense & Industry Symposium
+                            Defense & Industry Symposium – Presented by Northrop Grumman
                         </h1>
                     </Link>
                     <nav

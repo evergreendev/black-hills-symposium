@@ -22,15 +22,15 @@ export default function Home() {
             <div className="max-h-full h-[1100px] w-full bg-hero bg-cover bg-center relative">
                 <div className="absolute right-0 top-1/2 p-2 bg-primary-900 bg-opacity-80">
                     <h2 className="text-2xl"><span className="text-4xl font-bold">Maj. Gen. Mark Morrell<br/></span> South Dakota National Guard
-                        <br/>2024 Black Hills Defense & Industry Symposium</h2>
+                        <br/>2024 Black Hills Defense & Industry Symposium <br/>– Presented by Northrop Grumman</h2>
                 </div>
 
                 <div
                     className=" bottom-0 md:right-1/2 w-full max-w-screen-xl bg-primary-800 bg-opacity-90 absolute md:translate-x-1/2 md:translate-y-1/2 md:flex justify-between">
                     <div className="p-4">
                         <h2 className="font-bold text-3xl lg:text-5xl mb-1 lg:mb-2 lg:uppercase">
-                            {/*Northrop Grumman <br className="hidden sm:block"/>*/}Black Hills Defense
-                            <br className="hidden sm:block"/>& Industry Symposium:
+                            Black Hills Defense
+                            <br className="hidden sm:block"/>& Industry Symposium <span className="text-3xl block">– Presented by Northrop Grumman:</span>
                         </h2>
                         <h2 className="text-2xl lg:text-4xl">
                             Leading The National Defense Discussion
