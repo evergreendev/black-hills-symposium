@@ -1,4 +1,5 @@
-import registerNowImg from "../public/register-now.jpg";
+// @ts-ignore
+import registerNowImg from "../public/slider-images/19.JPG";
 import agendaImg from "../public/agenda.jpg";
 import exhibitorImg from "../public/exhibitor.jpg";
 import hotelImg from "../public/hotel-info.jpg"
@@ -71,7 +72,7 @@ export default function Home() {
                             <NavCard img={hotelImg} title="Hotel Information"
                                      url="/hotel-information"/>
                             <NavCard img={gettingAroundImg} title="Getting Around"
-                                     url="/getting-around"/>
+                                     url="https://www.visitrapidcity.com/"/>
                         </div>
 
                     </div>
