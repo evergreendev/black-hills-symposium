@@ -3,7 +3,7 @@ import "./globals.css";
 import {inter} from './fonts';
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
-import { GoogleAnalytics } from "@next/third-parties/google"
+import {GoogleAnalytics, GoogleTagManager} from "@next/third-parties/google"
 
 
 export const metadata: Metadata = {
@@ -19,6 +19,7 @@ export default function RootLayout({
     return (
         <html lang="en" className="overflow-x-hidden">
         <GoogleAnalytics gaId={"G-0C5VGMKCLG"}/>
+        <GoogleTagManager gtmId={"GTM-5SFSXBQ4"}/>
         <body className={`${inter.className} overflow-x-hidden text-white`}>
         <Header/>
         {children}
