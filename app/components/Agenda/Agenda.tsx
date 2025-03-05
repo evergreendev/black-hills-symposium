@@ -63,7 +63,7 @@ const Agenda = ({schedule, trackSessions}: { schedule: dateItem[], trackSessions
             }
         </div>
         {
-            trackSessions && <div className="bg-primary-100 p-7 sticky top-9 max-w-screen-sm shadow-md">
+            trackSessions && <div className="bg-primary-100 p-7 sticky top-9 max-w-screen-sm shadow-md w-full">
                 <h2 className="text-4xl font-bold text-primary-600 mb-4 bg-primary-200 p-1">Track Sessions</h2>
                 {
                     trackSessions.map(x => {
@@ -72,7 +72,8 @@ const Agenda = ({schedule, trackSessions}: { schedule: dateItem[], trackSessions
                             <div>
                                 {x.items.map((y: any) => {
                                     return <div className="mb-4" key={y.title}>
-                                        {y.time} - {y.title}
+                                        {y.time} - <span className="font-bold">{y.title}</span>
+                                        <p className="text-sm">{y.description}</p>
                                     </div>
                                 })}
                             </div>
