@@ -57,6 +57,10 @@ const navArr: {item: item, subItems?: item[]}[] = [
         },
         subItems:[
             {
+                title: "2025 Symposium",
+                url: "/about"
+            },
+            {
                 title: "2024 Symposium",
                 url: "2024-about"
             }
