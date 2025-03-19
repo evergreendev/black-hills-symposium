@@ -392,6 +392,24 @@ const schedule: dateItem[] = [
             </div>
             <div id="agenda" className="w-full flex justify-center px-12 bg-primary-900">
                 <div className="text-primary-900 max-w-screen-xl bg-white p-7">
+                    <div className="space-y-4 mx-auto flex flex-col items-center p-2 bg-primary-100 mb-12">
+                        <h2 className="font-bold text-xl">Attire Recommendations:</h2>
+                        <div>
+                            <span className="font-bold">Military:</span> UOD
+                        </div>
+                        <div>
+                            <span className="font-bold">Civilian:</span> Business casual
+                        </div>
+                        <div>
+                            <span className="font-bold">Panelist:</span> Business casual / UOD (military)
+                        </div>
+                        <div>
+                            <span className="font-bold">Featured Speaker:</span> Business / Service Dress
+                        </div>
+                        <div>
+                            <span className="font-bold">SD Mines Social:</span> Business casual / UOD (military)
+                        </div>
+                    </div>
                     <Agenda trackSessions={trackSessions} schedule={schedule}/>
                 </div>
             </div>
