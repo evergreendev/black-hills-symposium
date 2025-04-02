@@ -21,7 +21,7 @@ export default function About() {
                             We are excited to work with The Box Elder Event Center to host guests during the 2025 Black Hills Defense & Industry Symposium.
                         </p>
                         <p>
-                            A room block has been created and is ready for reservations. To book, use the link below or
+                            To book, use the link below or
                             contact the Courtyard at <Link className="text-nowrap" href="tel:605-791-0945">(605) 791-0945</Link>, mention “2025 Black Hills Defense & Industry Symposium” when booking.
                         </p>
                         <p>
