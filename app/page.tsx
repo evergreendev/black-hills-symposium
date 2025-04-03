@@ -13,7 +13,7 @@ import {Metadata} from "next";
 
 export const metadata: Metadata = {
     title: "Black Hills Defense & Industry Symposium",
-    description: "The Black Hills Defense and Industry Symposium is coming to The Box Elder Event Center, April 9 & 10, 2025. This annual event will bring leaders of academia, research, industry, military and the Black Hills communities together for meaningful dialogue on the importance of defense investment in western South Dakota. Leaders will discuss how attendees can contribute to solutions for stronger national defense and bolstered regional economic development."
+    description: "The Black Hills Defense and Industry Symposium is coming to The Box Elder Events Center, April 9 & 10, 2025. This annual event will bring leaders of academia, research, industry, military and the Black Hills communities together for meaningful dialogue on the importance of defense investment in western South Dakota. Leaders will discuss how attendees can contribute to solutions for stronger national defense and bolstered regional economic development."
 }
 
 export default function Home() {
@@ -41,7 +41,7 @@ export default function Home() {
                         <h3 className="text-3xl mb-1 lg:text-5xl font-bold lg:mb-4">April 9 & 10, 2025</h3>
                         <Link className="text-2xl lg:text-3xl hover:bg-primary-100 transition-all"
                               href="https://www.google.com/maps/dir//The+Box+Elder+Events+Center,+631+Watiki+Way,+Box+Elder,+SD+57719/@44.0921733,-103.2723344,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x877d67e28838e8db:0x72d6c280514273be!2m2!1d-103.1460223!2d44.1000482?entry=ttu">
-                            <h3 className="font-bold">The Box Elder Event Center</h3>
+                            <h3 className="font-bold">The Box Elder Events Center</h3>
                             <h3>Box Elder, SD 57719</h3>
                         </Link>
                     </div>

@@ -303,7 +303,7 @@ export default function About() {
             <div className="max-w-screen-xl text-primary-900 mt-9">
                 <ImageAndText img={leftImg}>
                     <div className="space-y-3.5">
-                        <p>The Black Hills Defense and Industry Symposium is coming to The Box Elder Event Center, April
+                        <p>The Black Hills Defense and Industry Symposium is coming to The Box Elder Events Center, April
                             10-11, 2024. This annual event will bring leaders of academia, research, industry, the
                             military, the federal government, and the Black Hills community together for meaningful
                             dialogue highlighting the importance of collaborative relations in western South Dakota.

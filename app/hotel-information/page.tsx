@@ -18,7 +18,7 @@ export default function About() {
                     <div className="w-full max-w-prose text-primary-900 text-xl space-y-3.5">
                         <h2 className="font-bold text-5xl mb-3 font-serif">Hotel Information</h2>
                         <p>
-                            We are excited to work with The Box Elder Event Center to host guests during the 2025 Black Hills Defense & Industry Symposium.
+                            We are excited to work with The Box Elder Events Center to host guests during the 2025 Black Hills Defense & Industry Symposium.
                         </p>
                         <p>
                             To book, use the link below or
@@ -34,7 +34,7 @@ export default function About() {
                             </Link>
                         </p>
                         <p>
-                            Parking is free and conveniently located near The Box Elder Event Center.
+                            Parking is free and conveniently located near The Box Elder Events Center.
                         </p>
                     </div>
                 </ImageAndText>

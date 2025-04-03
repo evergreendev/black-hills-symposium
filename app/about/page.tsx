@@ -34,16 +34,17 @@ export default function About() {
                             items: [
                                 <>
                                     <p>Featuring representatives from Black Hills Energy, West River Electric, and
-                                        Rushmore
-                                        Energy, join us for a panel discussion on what they do, how they do it, and what
-                                        “cyber security” looks like for these organizations.</p>
+                                        Rushmore Electric Power Co-op, join us for a panel discussion on our energy
+                                        infrastructure and how it relates to national security. </p>
                                     <ul className="list-disc list-inside space-y-2">
                                         <li className="text-gray-800">West River Electric - Robert Raker, CEO</li>
                                         <li className="text-gray-800">Black Hills Energy - John Jorgenson, Chief
                                             Security
                                             Officer, Black Hills Energy
                                         </li>
-                                        <li className="text-gray-800">Rushmore Energy - Cory Trapp, Need title</li>
+                                        <li className="text-gray-800">Rushmore Electric Power Co-Op - Cory Trapp,
+                                            Assistant General Manager
+                                        </li>
                                     </ul>
                                 </>
                             ]
@@ -68,13 +69,13 @@ export default function About() {
                         }
                     ]
                 },
-                {
-                    title: "General Session",
-                    room: "Ellsworth A",
-                    items: [
-                        "Local FBI - TBD"
-                    ]
-                },
+                /*                {
+                                    title: "General Session",
+                                    room: "Ellsworth A",
+                                    items: [
+                                        "Local FBI - TBD"
+                                    ]
+                                },*/
                 {
                     title: "General Session",
                     room: "Ellsworth A",
@@ -156,9 +157,7 @@ export default function About() {
                             title: "Intersection of National Security & Foreign Trade",
                             room: "Ellsworth A",
                             items: [
-                                "Jesse Fonkert - Deputy Commissioner, GOED (Moderator)",
-                                "Sam Brown - Department of Commerce",
-                                "Sara Eide - USGLC"
+                                "Foreign trade is a critical component of economic growth, but it also presents national security challenges. From supply chain vulnerabilities to foreign investment risks, businesses must navigate a complex landscape of policies and global pressures. This fireside chat will explore the intersection of national security and foreign trade, offering insights into how industries can adapt, innovate, and safeguard their operations. Jesse Fonkert, Deputy Commissioner for the South Dakota Governor’s Office of Economic Development, will sit down with Sam Brown from the U.S. Department of Commerce to discuss the impact of foreign trade on national security and what businesses need to know to stay resilient in a rapidly shifting global economy.",
                             ]
                         },
                         {
@@ -223,7 +222,8 @@ export default function About() {
                                 <li className="text-gray-800">Col Brian Buschur - Commander, 28th Operations Group,
                                     Ellsworth AFB
                                 </li>
-                                <li className="text-gray-800">Nikki Kodama - VP, B-1 Production Strike, Northrop Grumman
+                                <li className="text-gray-800">Nikki Kodama - Vice President, B-21 Production Strike,
+                                    Northrop Grumman
                                 </li>
                             </ul>
                         </>
@@ -388,7 +388,7 @@ export default function About() {
                             },
                             {
                                 name: "Nikki Kodama",
-                                position: "Vice President, B-1 Production Strike",
+                                position: "Vice President, B-21 Production Strike",
                                 image: "/speakers/nikki.jpg"
                             },
                             {
