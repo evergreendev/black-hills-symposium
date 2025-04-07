@@ -10,15 +10,15 @@ export default function About() {
             date: "Wednesday, April 9, 2025",
             items: [
                 {
-                    time: "",
-                    title: "General Session",
+                    time: "8:30 a.m.",
+                    title: "Welcome/Opening Session",
                     room: "Ellsworth A",
                     items: [
                         "Join us as we kick off our 2025 Symposium. You will get to hear from South Dakota National Guard Adjutant General, Major General Mark Morrell —The National Guard’s Evolving Role in Homeland Defense and Global Missions: Current Operations, Future Projections and Safeguarding State Critical Infrastructure"
                     ],
                 },
                 {
-                    time: "",
+                    time: "9:30 a.m.",
                     title: "Breakout Session A",
                     items: [
                         {
@@ -50,42 +50,69 @@ export default function About() {
                             ]
                         },
                         {
-                            title: "The Link Between Family Quality of Life & Force Readiness",
+                            title: "Creating Military Friendly Communities",
                             room: "Raider C/D",
                             items: [
                                 <>
-                                    <p>This fireside chat will explore the Five & Thrive initiative; a grassroots effort
-                                        aimed at improving the quality of life for military families in five key areas:
-                                        childcare, education, healthcare, housing, and spouse employment.</p>
+                                    <p>Every year, the Department of Defense, via the Defense Support Liaison Office,
+                                        establishes a list of priority items impacting military families and their
+                                        quality of life. Additionally, the Air Force has certain areas which they deem
+                                        critical for future basing decisions. This session will bring awareness to the
+                                        focus areas and basing criteria critical to our community posturing for
+                                        new/expanded missions and safeguard against possible future BRACs.</p>
                                     <ul className="list-disc list-inside space-y-2">
-                                        <li className="text-gray-800">Taylor Davis, Senior Director, Workforce
+                                        <li className="text-gray-800">Lorie Vega - Deputy Commander, 28 Mission Support
+                                            Group, Ellsworth AFB
+                                        </li>
+                                        <li className="text-gray-800">JoAnn Mulholland - School Liaison Program Manager,
+                                            Ellsworth AFB
+                                        </li>
+                                        <li className="text-gray-800">Taylor Davis - Senior Director, Workforce
                                             Development & Partnerships, Elevate Rapid City
                                         </li>
-                                        <li className="text-gray-800">Reese Niu (Moderator)
+                                        <li className="text-gray-800">Michelle Richart - Defense State Liaison Officer
                                         </li>
                                     </ul>
                                 </>
                             ]
-                        }
+                        },
                     ]
+                },
+                {
+                    title: "Connection Break - Foyer",
+                    time: "10:20 a.m."
+                },
+                {
+                    title: "FBI's Role in National Security",
+                    time: "10:30 a.m.",
+                    room: "Ellsworth A",
+                    items: [
+                        "with Rebecca King, Supervisory Intelligence Agent"
+                    ]
+                },
+                {
+                    title: "Connection Break - Foyer",
+                    time: "11:15 a.m."
                 },
                 /*                {
                                     title: "General Session",
                                     room: "Ellsworth A",
                                     items: [
-                                        "Local FBI - TBD"
+                                        "Securing the Homeland – Arguably, National Defense is best achieved by taking a holistic approach. Hear from a DHS official on where we were, where we are, and where we are going on the homeland security front."
                                     ]
                                 },*/
                 {
-                    title: "General Session",
+                    title: "Out of Captivity",
+                    time: "11:30 a.m.",
                     room: "Ellsworth A",
                     items: [
-                        "Securing the Homeland – Arguably, National Defense is best achieved by taking a holistic approach. Hear from a DHS official on where we were, where we are, and where we are going on the homeland security front."
+                        "with Best-Selling Author Marc Gonsalves"
                     ]
                 },
 
                 {
                     title: "Networking Lunch",
+                    time: "12:00 p.m.",
                     room: "Ellsworth A",
                     items: [
                         "Featuring the premier of Newsweek’s B-1 Unconventional Series video. Recently, Newsweek Editor at Large, Naveed Jamali became the first journalist to film and fly in all three of the Air Force's bombers. He completed the trifecta in an Ellsworth B-1, for an episode of Newsweek's Unconventional, that he will be sharing exclusively at the Black Hills Defense & Industry Symposium. "
@@ -94,10 +121,28 @@ export default function About() {
 
                 {
                     title: "Breakout Session B",
-                    items: [
+                    time: "1:00 p.m.",
+                    items: [                        {
+                        title: "Military Construction",
+                        room: "Ellsworth A",
+                        items: [
+                            <>
+                                <ul className="list-disc list-inside space-y-2">
+                                    <li className="text-gray-800">Lt Col David Kohlhepp - 28 CES/CC, Ellsworth AFB
+                                    </li>
+                                    <li className="text-gray-800">General (Ret) Paul Owen - Army Programs Director,
+                                        HDR
+                                    </li>
+                                    <li className="text-gray-800">Marco Furlan-Kaneko - Deputy Chief, Military
+                                        Design and Construction Division, AFCEC
+                                    </li>
+                                </ul>
+                            </>
+                        ]
+                    },
                         {
                             title: "Cyber Security",
-                            room: "Ellsworth A",
+                            room: "Raider A/B",
                             items: [
                                 <>
                                     <p>
@@ -110,24 +155,7 @@ export default function About() {
                                 </>
                             ]
                         },
-                        {
-                            title: "Military Construction",
-                            room: "Raider A/B",
-                            items: [
-                                <>
-                                    <ul className="list-disc list-inside space-y-2">
-                                        <li className="text-gray-800">Lt Col David Kohlhepp - 28 CES/CC, Ellsworth AFB
-                                        </li>
-                                        <li className="text-gray-800">General (Ret) Paul Owen - Army Programs Director,
-                                            HDR
-                                        </li>
-                                        <li className="text-gray-800">Marco Furlan-Kaneko - Deputy Chief, Military
-                                            Design and Construction Division, AFCEC
-                                        </li>
-                                    </ul>
-                                </>
-                            ]
-                        },
+
                         {
                             title: "Doing Business with the Government",
                             room: "Raider C/D",
@@ -151,13 +179,21 @@ export default function About() {
                     ]
                 },
                 {
+                    time: "1:50 p.m.",
+                    title: "Connection Break - Foyer"
+                },
+                {
                     title: "Breakout Session C",
+                    time: "2:00 p.m.",
                     items: [
                         {
                             title: "Intersection of National Security & Foreign Trade",
                             room: "Ellsworth A",
                             items: [
                                 "Foreign trade is a critical component of economic growth, but it also presents national security challenges. From supply chain vulnerabilities to foreign investment risks, businesses must navigate a complex landscape of policies and global pressures. This fireside chat will explore the intersection of national security and foreign trade, offering insights into how industries can adapt, innovate, and safeguard their operations. Jesse Fonkert, Deputy Commissioner for the South Dakota Governor’s Office of Economic Development, will sit down with Sam Brown from the U.S. Department of Commerce to discuss the impact of foreign trade on national security and what businesses need to know to stay resilient in a rapidly shifting global economy.",
+                                "Jesse Fonkert - Deputy Commissioner, GOED (Moderator)",
+                                "Sam Brown - Department of Commerce",
+                                "Sara Eide - USGLC"
                             ]
                         },
                         {
@@ -209,11 +245,21 @@ export default function About() {
                                     </ul>
                                 </>
                             ]
-                        }
+                        },
+                        {
+                            title: "Setting Up Sub-Contractors for Success with Prime Contractors",
+                            room: "Lancer C/D",
+                            items: []
+                        },
                     ]
                 },
                 {
-                    title: "General Session",
+                    title: "Connection Break - Foyer",
+                    time: "2:50 p.m."
+                },
+                {
+                    title: "Ellsworth State of the Base/Northrop Grumman B-21 Raider Update",
+                    time: "3:00 p.m.",
                     room: "Ellsworth A",
                     items: [
                         "In this heavy-hitting, 2-for-1 session, you will get a real-time state of the base update from Ellsworth AFB leadership. Immediately following, Northrop Grumman’s Vice President over the B-21 Raider will wrap up our sessions with an update on and overview of the program.",
@@ -230,7 +276,14 @@ export default function About() {
                     ]
                 },
                 {
+                    title: "Closing Remarks",
+                    time: "4:00 p.m.",
+                    room: "Ellsworth A",
+                    items: []
+                },
+                {
                     title: "South Dakota Mines Social",
+                    time: "4:30pm",
                     room: "Foyer",
                     items: [
                         "Co-Hosted by H-S Precision",
@@ -244,7 +297,8 @@ export default function About() {
             date: "Thursday, April 10, 2025",
             items: [
                 {
-                    title: "General Session",
+                    title: "Welcome/Opening Session",
+                    time: "8:30 a.m.",
                     room: "Ellsworth A",
                     items: [
                         <>
@@ -257,15 +311,25 @@ export default function About() {
                     ]
                 },
                 {
-                    title: "General Session",
-                    room: "Ellsworth Salon",
+                    title: "Connection Break - Foyer",
+                    time: "9:15 a.m."
+                },
+                {
+                    title: "Security & Innovation",
+                    time: "9:30 a.m.",
+                    room: "Ellsworth A",
                     items: [
-                        "Security & Innovation",
+                        " Innovation and security go hand in hand, especially as technology evolves at lightning speed. In this fireside chat, we’ll dive into how emerging tech, cybersecurity, and national security connect—and what it means for businesses and policymakers. From the latest threats to game-changing innovations, we’ll explore real-world challenges and practical strategies to stay ahead. This will be a brief presentation followed by a relaxed, engaging conversation. Our moderator, Jesse Fonkert, Deputy Commissioner for the South Dakota Governor’s Office of Economic Development, will chat with Andrea Thompson, CEO of DARC, to break down key insights and answer audience questions.",
                         "Andrea Thompson - Dakota State Applied Research Corp"
                     ]
                 },
                 {
+                    title: "Connection Break - Foyer",
+                    time: "10:15 a.m."
+                },
+                {
                     title: "Breakout Session D",
+                    time: "10:30 a.m.",
                     items: [
                         {
                             title: "The Threat of Drones and Mitigation TTPs",
@@ -276,27 +340,18 @@ export default function About() {
                             ]
                         },
                         {
-                            title: "Creating Military Friendly Communities",
+                            title: "The Link Between Family Quality of Life & Force Readiness",
                             room: "Raider A/B",
                             items: [
                                 <>
-                                    <p>Every year, the Department of Defense, via the Defense Support Liaison Office,
-                                        establishes a list of priority items impacting military families and their
-                                        quality of life. Additionally, the Air Force has certain areas which they deem
-                                        critical for future basing decisions. This session will bring awareness to the
-                                        focus areas and basing criteria critical to our community posturing for
-                                        new/expanded missions and safeguard against possible future BRACs.</p>
+                                    <p>This fireside chat will explore the Five & Thrive initiative; a grassroots effort
+                                        aimed at improving the quality of life for military families in five key areas:
+                                        childcare, education, healthcare, housing, and spouse employment.</p>
                                     <ul className="list-disc list-inside space-y-2">
-                                        <li className="text-gray-800">Lorie Vega - Deputy Commander, 28 Mission Support
-                                            Group, Ellsworth AFB
-                                        </li>
-                                        <li className="text-gray-800">JoAnn Mulholland - School Liaison Program Manager,
-                                            Ellsworth AFB
-                                        </li>
-                                        <li className="text-gray-800">Taylor Davis - Senior Director, Workforce
+                                        <li className="text-gray-800">Taylor Davis, Senior Director, Workforce
                                             Development & Partnerships, Elevate Rapid City
                                         </li>
-                                        <li className="text-gray-800">Michelle Richart - Defense State Liaison Officer
+                                        <li className="text-gray-800">Reese Niu (Moderator)
                                         </li>
                                     </ul>
                                 </>
@@ -321,8 +376,11 @@ export default function About() {
                                     </ul>
                                 </>
                             ]
+                        },
+                        {
+                            title: "Event Concludes",
+                            time: "11:30 a.m.",
                         }
-
                     ]
                 }
             ]

@@ -1,6 +1,7 @@
 "use client"
 import {ReactElement, useState} from "react";
 import {Plus, Minus} from "lucide-react";
+import {inika} from "@/app/fonts";
 
 export type dateItem = {
     date: string,
@@ -30,8 +31,8 @@ const AgendaItem = ({item}:{item:timeItem}) => {
             }
         }}>
             <h2 className={`mb-2 ${item.items ? "":"ml-9"}`}>
-                <p className="font-bold text-base">{item.time}</p>
-                <p className="font-bold text-base">{item.title}</p>
+                <p className="text-base">{item.time}</p>
+                <p className={`font-bold text-xl text-primary-600 ${inika.className}`}>{item.title}</p>
             </h2>
 
             <div
