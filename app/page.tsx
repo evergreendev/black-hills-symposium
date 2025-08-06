@@ -12,8 +12,8 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: "Black Hills Defense & Industry Symposium",
-    description: "The Black Hills Defense and Industry Symposium is coming to The Box Elder Events Center, April 9 & 10, 2025. This annual event will bring leaders of academia, research, industry, military and the Black Hills communities together for meaningful dialogue on the importance of defense investment in western South Dakota. Leaders will discuss how attendees can contribute to solutions for stronger national defense and bolstered regional economic development."
+    title: "Defense Symposium Where AI, Cyber & Defense Converge",
+    description: "The Black Hills Defense and Industry Symposium is coming to The Box Elder Events Center, April 9 & 10, 2026. This annual event will bring leaders of academia, research, industry, military and the Black Hills communities together for meaningful dialogue on the importance of defense investment in western South Dakota. Leaders will discuss how attendees can contribute to solutions for stronger national defense and bolstered regional economic development."
 }
 
 export default function Home() {
@@ -30,15 +30,16 @@ export default function Home() {
                     className=" bottom-0 md:right-1/2 w-full max-w-screen-xl bg-primary-800 bg-opacity-90 absolute md:translate-x-1/2 md:translate-y-1/2 md:flex justify-between">
                     <div className="p-4">
                         <h2 className="font-bold text-3xl lg:text-5xl mb-1 lg:mb-2 lg:uppercase">
-                            Black Hills Defense
-                            <br className="hidden sm:block"/>& Industry Symposium <span className="text-3xl block">– Presented by Northrop Grumman:</span>
+                            Defense Symposium
+                            <br className="hidden sm:block"/>Where AI, Cyber <br className="hidden sm:block"/>& Defense Converge<span className="text-3xl block">– Presented by Northrop Grumman
+                            <br/> Hosted by Black Hills MAC</span>
                         </h2>
                         <h2 className="text-2xl lg:text-4xl">
                             Leading The National Defense Discussion
                         </h2>
                     </div>
                     <div className="flex flex-col justify-center bg-gray-100 text-primary-600 p-4 lg:px-10">
-                        <h3 className="text-3xl mb-1 lg:text-5xl font-bold lg:mb-4">April 9 & 10, 2025</h3>
+                        <h3 className="text-3xl mb-1 lg:text-5xl font-bold lg:mb-4">April 8 & 9, 2026</h3>
                         <Link className="text-2xl lg:text-3xl hover:bg-primary-100 transition-all"
                               href="https://www.google.com/maps/dir//The+Box+Elder+Events+Center,+631+Watiki+Way,+Box+Elder,+SD+57719/@44.0921733,-103.2723344,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x877d67e28838e8db:0x72d6c280514273be!2m2!1d-103.1460223!2d44.1000482?entry=ttu">
                             <h3 className="font-bold">The Box Elder Events Center</h3>
@@ -50,14 +51,14 @@ export default function Home() {
 
             <div
                 className="bg-primary-100 bg-logo bg-[length:40vw] bg-no-repeat bg-[-13%_31%] border-t-8 border-primary-200 w-full flex justify-center  border-b-2 shadow-lg mb-5">
-                <div className="bg-primary-100 bg-opacity-70 w-full flex justify-center pt-20 pb-6">
+                <div className="bg-primary-100 bg-opacity-70 w-full flex justify-center pt-28 pb-6">
                     <div className="max-w-screen-xl flex justify-between w-full flex-wrap p-8">
                         <div className="pl-2 w-full pb-1 pt-4 mb-14 border-b-2 border-primary-300">
-                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">The 2025 Black Hills Defense & Industry Symposium will bring together national, regional, and local leaders from industry, the military, and the community to explore the critical role of defense investments in western South Dakota.
+                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">The 2026 Black Hills Defense & Industry Symposium will bring together national, regional, and local leaders from industry, the military, and the community to explore the critical role of defense investments in western South Dakota.
                             </p>
                             <p className="mb-4 font-bold font-serif text-3xl text-primary-600">As a 2024 Great American Defense Community (GADC), the Black Hills Region continues to lead in military innovation and community partnerships. This symposium — hosted by the Black Hills Military Advisory Coalition (BHMAC) in partnership with Northrop Grumman — will highlight how defense investments strengthen both national security and local economies.
                             </p>
-                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">Taking place April 9-10, 2025, in Box Elder, South Dakota, the event will feature insightful panel discussions, inspiring keynote speakers, and valuable networking opportunities, all focused on advancing collaboration between defense and industry.
+                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">Taking place April 8-9, 2026, in Box Elder, South Dakota, the event will feature insightful panel discussions, inspiring keynote speakers, and valuable networking opportunities, all focused on advancing collaboration between defense and industry.
                             </p>
                             <p className="mb-4 font-bold font-serif text-3xl text-primary-600">Don’t miss this opportunity to connect, collaborate, and contribute to the continued growth and strength of the Black Hills defense community.
                             </p>

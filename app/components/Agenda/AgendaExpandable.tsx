@@ -36,7 +36,7 @@ const AgendaItem = ({item}:{item:timeItem}) => {
             </h2>
 
             <div
-                className={`px-4 text-sm transition-all duration-300 ease-in-out ${isOpen ? "max-h-screen" : "max-h-0 overflow-hidden"}`}>
+                className={`px-4 text-sm transition-all duration-300 ease-in-out ${isOpen ? "max-[500vh]" : "max-h-0 overflow-hidden"}`}>
                 {item.room ? <p><span className="font-normal italic">{item.room}</span></p> :""}
                 {item.items && item.items.map(z => {
                     if (typeof z != "string" && "title" in z){

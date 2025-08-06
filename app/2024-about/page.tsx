@@ -304,13 +304,13 @@ export default function About() {
                 <ImageAndText img={leftImg}>
                     <div className="space-y-3.5">
                         <p>The Black Hills Defense and Industry Symposium is coming to The Box Elder Events Center, April
-                            10-11, 2024. This annual event will bring leaders of academia, research, industry, the
+                            8-9, 2026. This annual event will bring leaders of academia, research, industry, the
                             military, the federal government, and the Black Hills community together for meaningful
                             dialogue highlighting the importance of collaborative relations in western South Dakota.
                             Leaders will discuss how attendees can contribute to solutions for stronger national defense
                             and bolstered regional economic development.</p>
 
-                        <p>The 2024 Symposium will feature high-level discussions and breakout sessions regarding
+                        <p>The 2026 Symposium will feature high-level discussions and breakout sessions regarding
                             PFOS/PFOA, critical minerals, Small Business Innovation Research (SBIR), partnerships
                             between prime and subcontractors, military family quality of life, along with important
                             information regarding the B-21 Raider. We encourage all Black Hills residents to register

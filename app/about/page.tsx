@@ -440,6 +440,11 @@ export default function About() {
                                 image: "/speakers/andrea.jpg"
                             },
                             {
+                                name: "Marc Gonsalves",
+                                position: "Director of Charlotte Reentry Initiative/Co-host of Reformed Mindset Podcast",
+                                image: "/speakers/gonsalves.jpg"
+                            },
+                            {
                                 name: "Col Brian Buschur",
                                 position: "Commander, 28th Operations Group, Ellsworth AFB",
                                 image: "/speakers/brian.jpg"
@@ -455,8 +460,8 @@ export default function About() {
                                 image: "/speakers/morrell.jpg"
                             },
                         ].map((speaker, index) => (
-                            <div key={index} className="flex flex-col items-center">
-                                <div className="w-64 h-64 relative">
+                            <div key={index} className="flex flex-col items-center flex-wrap">
+                                <div className="max-w-full w-64 h-64 relative">
                                     <Image
                                         src={speaker.image}
                                         alt={speaker.name}
