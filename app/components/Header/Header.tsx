@@ -92,8 +92,11 @@ const Header = () => {
                                alt=""/>
                         <h1 className={`${inika.className} text-3xl pt-2.5 xl:text-4xl font-bold pr-10 sm:pr-0`}>{/*Northrop
                             Grumman */}Defense Symposium Where AI, Cyber & Defense Converge
-                            Presented by Northrop Grumman
+                            <span className={`text-lg block`}>
+                                                            Presented by Northrop Grumman<br/>
                             Hosted by Black Hills MAC
+                            </span>
+
                         </h1>
                     </Link>
                     <nav
