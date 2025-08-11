@@ -4,7 +4,7 @@ import agendaImg from "../public/agenda.jpg";
 import exhibitorImg from "../public/exhibitor.jpg";
 import hotelImg from "../public/hotel-info.jpg"
 import gettingAroundImg from "../public/rushmore.jpg";
-import speakerImg from "../public/tim.jpg";
+import speakerImg from "../public/TH-310.jpg";
 import Link from "next/link";
 import NavCard from "@/app/components/NavCard/NavCard";
 import QuoteBlock from "@/app/components/QuoteBlock";
@@ -12,8 +12,8 @@ import {Metadata} from "next";
 
 
 export const metadata: Metadata = {
-    title: "Defense Symposium Where AI, Cyber & Defense Converge",
-    description: "The Black Hills Defense and Industry Symposium is coming to The Box Elder Events Center, April 9 & 10, 2026. This annual event will bring leaders of academia, research, industry, military and the Black Hills communities together for meaningful dialogue on the importance of defense investment in western South Dakota. Leaders will discuss how attendees can contribute to solutions for stronger national defense and bolstered regional economic development."
+    title: "Defense & Industry Symposium Where AI, Cyber & Defense Converge",
+    description: "The Defense and Industry Symposium is coming to The Box Elder Events Center, April 8 & 9, 2026. This annual event will bring leaders of academia, research, industry, military and the Black Hills communities together for meaningful dialogue on the importance of defense investment in western South Dakota. Leaders will discuss how attendees can contribute to solutions for stronger national defense and bolstered regional economic development."
 }
 
 export default function Home() {
@@ -23,14 +23,14 @@ export default function Home() {
             <div className="max-h-full h-[1100px] w-full bg-hero bg-cover bg-center relative">
                 <div className="absolute right-0 top-1/2 p-2 bg-primary-900 bg-opacity-80">
                     <h2 className="text-2xl"><span className="text-4xl font-bold">Maj. Gen. Mark Morrell<br/></span> South Dakota National Guard
-                        <br/>2024 Black Hills Defense & Industry Symposium <br/>– Presented by Northrop Grumman</h2>
+                        <br/>2025 Black Hills Defense & Industry Symposium <br/>– Presented by Northrop Grumman</h2>
                 </div>
 
                 <div
                     className=" bottom-0 md:right-1/2 w-full max-w-screen-xl bg-primary-800 bg-opacity-90 absolute md:translate-x-1/2 md:translate-y-1/2 md:flex justify-between">
                     <div className="p-4">
                         <h2 className="font-bold text-3xl lg:text-5xl mb-1 lg:mb-2 lg:uppercase">
-                            Defense Symposium
+                            Defense & Industry Symposium
                             <br className="hidden sm:block"/>Where AI, Cyber <br className="hidden sm:block"/>& Defense Converge<span className="text-3xl block">– Presented by Northrop Grumman
                             <br/> Hosted by Black Hills MAC</span>
                         </h2>
@@ -54,9 +54,9 @@ export default function Home() {
                 <div className="bg-primary-100 bg-opacity-70 w-full flex justify-center pt-28 pb-6">
                     <div className="max-w-screen-xl flex justify-between w-full flex-wrap p-8">
                         <div className="pl-2 w-full pb-1 pt-4 mb-14 border-b-2 border-primary-300">
-                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">The 2026 Black Hills Defense & Industry Symposium will bring together national, regional, and local leaders from industry, the military, and the community to explore the critical role of defense investments in western South Dakota.
+                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">The 2026 Defense & Industry Symposium will bring together national, regional, and local leaders from industry, the military, and the community to explore the critical role of defense investments in western South Dakota.
                             </p>
-                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">As a 2024 Great American Defense Community (GADC), the Black Hills Region continues to lead in military innovation and community partnerships. This symposium — hosted by the Black Hills Military Advisory Coalition (BHMAC) in partnership with Northrop Grumman — will highlight how defense investments strengthen both national security and local economies.
+                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">As a 2024 Great American Defense Community (GADC), the Black Hills Region continues to lead in military innovation and community partnerships. This symposium — presented by Northrop Grumman and hosted by the Black Hills Military Coalition (BHMAC) — will highlight how defense investments strengthen both national security and local economies.
                             </p>
                             <p className="mb-4 font-bold font-serif text-3xl text-primary-600">Taking place April 8-9, 2026, in Box Elder, South Dakota, the event will feature insightful panel discussions, inspiring keynote speakers, and valuable networking opportunities, all focused on advancing collaboration between defense and industry.
                             </p>
@@ -69,7 +69,7 @@ export default function Home() {
                                      url="https://cvent.me/Ng2owB"/>
                             <NavCard img={agendaImg} title="Agenda" url="/about#agenda"/>
                             <NavCard img={exhibitorImg} title="Become an Exhibitor"
-                                     url="https://web.cvent.com/event/01ba3404-86c0-4fbd-b440-56207415d30e/regProcessStep1:88a95a6f-8472-427b-a196-fd00ede978b2"/>
+                                     url="/exhibitor-information"/>
                             <NavCard img={hotelImg} title="Hotel Information"
                                      url="/hotel-information"/>
                             <NavCard img={gettingAroundImg} title="Getting Around"
@@ -82,7 +82,7 @@ export default function Home() {
             <div className="max-w-screen-xl text-primary-900 mt-16 mb-16">
                 <QuoteBlock img={speakerImg}>
                     <p className="text-xl mb-5">
-                        “Welcome to the Black Hills Defense Symposium.
+                        &ldquo;Welcome to the Defense & Industry Symposium.
                         <br/>
                         <br/>
                         This event is designed to bring the best and the brightest from all over the country to the

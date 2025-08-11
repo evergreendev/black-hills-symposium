@@ -57,12 +57,16 @@ const navArr: {item: item, subItems?: item[]}[] = [
         },
         subItems:[
             {
-                title: "2025 Symposium",
+                title: "2026 Symposium",
                 url: "/about"
             },
             {
+                title: "2025 Symposium",
+                url: "/2025-about"
+            },
+            {
                 title: "2024 Symposium",
-                url: "2024-about"
+                url: "/2024-about"
             }
         ]
     },
@@ -91,7 +95,7 @@ const Header = () => {
                         <Image className="p-1 xl:absolute w-24 h-24 sm:h-auto sm:w-40 left-0 mr-7 z-20" src={logoImg}
                                alt=""/>
                         <h1 className={`${inika.className} text-3xl pt-2.5 xl:text-4xl font-bold pr-10 sm:pr-0`}>{/*Northrop
-                            Grumman */}Defense Symposium Where AI, Cyber & Defense Converge
+                            Grumman */}Defense & Industry Symposium Where AI, Cyber & Defense Converge
                             <span className={`text-lg block`}>
                                                             Presented by Northrop Grumman<br/>
                             Hosted by Black Hills MAC

@@ -18,8 +18,7 @@ export default function About() {
                 <div className="max-w-screen-md w-full text-primary-900 text-xl">
                     <h2 className="font-bold text-5xl mb-3 font-serif">Exhibitor Information</h2>
                     <p className="max-w-prose m-auto text-primary-500 text-3xl">
-                        Become a sponsor of the premier event focused on the growing defense industry of the Black Hills
-                        region.
+                        We are pleased to invite you to participate as a vendor at the 2026 Defense & Industry Symposium, Presented by Northrop Gruman, hosted by the BH MAC, taking place April 8-9, 2026 at The Box Elder Events Center.
                     </p>
                 </div>
             </div>
@@ -28,20 +27,18 @@ export default function About() {
                 <ImageAndText img={leftImg}>
                     <h2 className="font-serif text-3xl font-bold">Benefits</h2>
                     <p className="mb-3">
-                        This event offers the opportunity to connect with 1,000+ industry professionals. The two-day
-                        long regional conference will feature discussions around defense entrepreneurship, development,
-                        national security, military quality of life, critical minerals, and local industry
-                        opportunities. Featured speakers will include key leaders from the US Congress, Department of
-                        Defense, US Air Force, National Guard, US Army Corps of Engineers, and more.
+                        This premier event brings together defense leaders, industry experts, innovators, and decision-makers to discuss the latest advancements, challenges, and opportunities in our national defense landscape. As a vendor, you will have the unique opportunity to:
                     </p>
+                    <ul className="list-disc list-inside mb-3">
+                        <li><span className="font-bold">Showcase</span> your products, services, and innovations directly to military and industry professionals.</li>
+                        <li><span className="font-bold">Network</span> with key defense personnel, contractors, and partners from across the region and nation.</li>
+                        <li><span className="font-bold">Gain</span> visibility through event marketing, attendee materials, and onsite recognition.</li>
+                    </ul>
                     <h2 className="font-serif text-3xl font-bold">Who Attends?</h2>
                     <p>
                         This event draws distinguished attendees including Air Force and Army National Guard senior
                         leaders, academia, local, state, and federal officials, small business owners, entrepreneurs,
                         active-duty military members, military retirees, and veterans.
-                        <div className="mt-4 rounded flex items-start justify-start">
-                            <Link className="bg-primary-600 hover:bg-primary-500 rounded p-2 px-5 text-white font-bold" href="https://web.cvent.com/event/01ba3404-86c0-4fbd-b440-56207415d30e/regProcessStep1:88a95a6f-8472-427b-a196-fd00ede978b2">Become an Exhibitor</Link>
-                        </div>
                     </p>
                 </ImageAndText>
             </div>
