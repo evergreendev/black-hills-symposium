@@ -46,7 +46,7 @@ const navArr: {item: item, subItems?: item[]}[] = [
         subItems: [
             {
                 title: "Volunteer Intake Form",
-                url: "https://tinyurl.com/DefenseSymposiumVolunteer2025"
+                url: "https://forms.office.com/r/9eG9aRZZA5"
             }
         ]
     },

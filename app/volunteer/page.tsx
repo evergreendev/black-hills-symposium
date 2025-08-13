@@ -17,7 +17,7 @@ export default function About() {
                     <p className="max-w-prose m-auto text-primary-500 text-3xl">
                         Are you looking for volunteer opportunities to support our military members and their families?
                         Volunteers at the Black Hills Symposium facilitate improving quality of life for our service members and their families and increase community outreach and support.
-                        <Link href="https://tinyurl.com/DefenseSymposiumVolunteer2025" className="bg-primary-600 text-primary-100 flex justify-center text-center
+                        <Link href="https://forms.office.com/r/9eG9aRZZA5" className="bg-primary-600 text-primary-100 flex justify-center text-center
                         py-2 rounded-lg mt-7">Sign up now to register as a volunteer!</Link>{/*<Link href="mailto:tif.robertson@ellsworthauthority.org" className="bg-primary-600 text-primary-100 flex justify-center
                         py-2 rounded-lg mt-7">Contact us to register as a volunteer!</Link>*/}
                     </p>
