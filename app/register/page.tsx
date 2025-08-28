@@ -46,17 +46,13 @@ export default function Register() {
                         </div>
                     </div>
 
-                    <h2 className="text-4xl font-bold text-center my-8 text-gray-800 uppercase">About the Event</h2>
-                    <p className="mb-4 text-lg">
-                        The Defense and Industry Symposium is coming to The Box Elder Events Center, April 8 & 9, 2026.
-                        This annual
-                        event will bring leaders of academia, research, industry, military and the Black Hills
-                        communities together for
-                        meaningful dialogue on the importance of defense investment in western South Dakota. Leaders
-                        will discuss how
-                        attendees can contribute to solutions for stronger national defense and bolstered regional
-                        economic development.
-                    </p>
+                    <h2 className="text-4xl font-bold text-center my-8 text-gray-800 uppercase">Agenda</h2>
+                    <ul className="list-disc ml-6 space-y-2">
+                        <li>Governor&apos;s Resilience and Infrastructure Task Force (GRIT) (Infrastructure)</li>
+                        <li>Counter Unmanned Aerial Systems (CUAS)</li>
+                        <li>AI/Cyber Security</li>
+                        <li>B21 Update</li>
+                    </ul>
 
                     <div className="mt-10 text-center">
                         <p className="text-xl font-semibold">Registration Opening Soon</p>
