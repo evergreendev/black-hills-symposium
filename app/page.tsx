@@ -1,14 +1,9 @@
-// @ts-ignore
-import registerNowImg from "../public/slider-images/19.JPG";
-import agendaImg from "../public/agenda.jpg";
-import exhibitorImg from "../public/exhibitor.jpg";
-import hotelImg from "../public/hotel-info.jpg"
-import gettingAroundImg from "../public/rushmore.jpg";
 import speakerImg from "../public/TH-310.jpg";
 import Link from "next/link";
 import NavCard from "@/app/components/NavCard/NavCard";
 import QuoteBlock from "@/app/components/QuoteBlock";
 import {Metadata} from "next";
+import { faTicket, faClipboardList, faHandshake, faHotel, faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 
 export const metadata: Metadata = {
@@ -64,16 +59,12 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className="flex flex-wrap">
-                            <NavCard img={registerNowImg} title="Register Now"
-                                     url="https://cvent.me/Ng2owB"/>
-                            <NavCard img={agendaImg} title="Agenda" url="/about#agenda"/>
-                            <NavCard img={exhibitorImg} title="Become an Exhibitor"
-                                     url="/exhibitor-information"/>
-                            <NavCard img={hotelImg} title="Hotel Information"
-                                     url="/hotel-information"/>
-                            <NavCard img={gettingAroundImg} title="Getting Around"
-                                     url="https://www.visitrapidcity.com/"/>
+                        <div className="flex flex-wrap w-full">
+                            <NavCard icon={faTicket} title="Registration" url="/register"/>
+                            <NavCard icon={faClipboardList} title="Agenda" url="/about#agenda"/>
+                            <NavCard icon={faHandshake} title="Exhibitor" url="/exhibitor-information"/>
+                            <NavCard icon={faHotel} title="Hotel" url="/hotel-information"/>
+                            <NavCard icon={faMapLocationDot} title="Getting Around" url="https://www.visitrapidcity.com/"/>
                         </div>
 
                     </div>
