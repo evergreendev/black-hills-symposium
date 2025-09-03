@@ -116,10 +116,12 @@ export default function About() {
             </div>
             <div id="agenda" className="w-full flex justify-center px-12 bg-primary-900">
                 <div className="text-primary-900 max-w-screen-xl bg-white p-7">
-                    <div className="space-y-4 mx-auto flex flex-col items-center p-2 bg-primary-100 mb-12">
-                        <h2 className="font-bold text-xl">Defense & Industry Symposium Where AI, Cyber & Defense Converge</h2>
-                        <h3 className="text-lg">Presented by Northrop Grumman and hosted by the BH MAC</h3>
-                        <h3 className="text-lg">April 8-9, 2026</h3>
+                    <div className="space-y-2 mx-auto flex flex-col items-center p-2 bg-primary-100 mb-12 text-center">
+                        <h2 className="font-bold text-3xl md:text-5xl">Defense & Industry Symposium</h2>
+                        <h3 className="text-xl md:text-2xl">Presented by Northrop Grumman</h3>
+                        <h3 className="text-xl md:text-2xl">Where AI, Cyber, & Defense Converge</h3>
+                        <h4 className="text-base md:text-lg">Hosted by Black Hills MAC</h4>
+                        <h4 className="text-lg">April 8-9, 2026</h4>
                         <div>
                             <span className="font-bold">Military:</span> UOD
                         </div>

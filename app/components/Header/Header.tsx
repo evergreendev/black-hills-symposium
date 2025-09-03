@@ -94,13 +94,11 @@ const Header = () => {
                     <Link href="/" className="relative lg:pl-44 flex overflow-hidden lg:overflow-visible xl:w-5/12">
                         <Image className="p-1 xl:absolute w-24 h-24 sm:h-auto sm:w-40 left-0 mr-7 z-20" src={logoImg}
                                alt=""/>
-                        <h1 className={`${inika.className} text-3xl pt-2.5 xl:text-4xl font-bold pr-10 sm:pr-0`}>{/*Northrop
-                            Grumman */}Defense & Industry Symposium Where AI, Cyber & Defense Converge
-                            <span className={`text-lg block`}>
-                                                            Presented by Northrop Grumman<br/>
-                            Hosted by Black Hills MAC
-                            </span>
-
+                        <h1 className={`${inika.className} text-3xl pt-2.5 xl:text-4xl font-bold pr-10 sm:pr-0`}>
+                            <span className="block text-2xl sm:text-3xl xl:text-4xl">Defense & Industry Symposium</span>
+                            <span className={`block text-base sm:text-lg`}>Presented by Northrop Grumman</span>
+                            <span className={`block text-base sm:text-lg`}>Where AI, Cyber, & Defense Converge</span>
+                            <span className={`block text-sm`}>Hosted by Black Hills MAC</span>
                         </h1>
                     </Link>
                     <nav

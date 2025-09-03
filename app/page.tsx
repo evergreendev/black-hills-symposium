@@ -24,10 +24,11 @@ export default function Home() {
                 <div
                     className=" bottom-0 md:right-1/2 w-full max-w-screen-xl bg-primary-800 bg-opacity-90 absolute md:translate-x-1/2 md:translate-y-1/2 md:flex justify-between">
                     <div className="p-4">
-                        <h2 className="font-bold text-3xl lg:text-5xl mb-1 lg:mb-2 lg:uppercase">
+                        <h2 className="font-bold text-4xl lg:text-7xl mb-1 lg:mb-2 lg:uppercase">
                             Defense & Industry Symposium
-                            <br className="hidden sm:block"/>Where AI, Cyber <br className="hidden sm:block"/>& Defense Converge<span className="text-3xl block">– Presented by Northrop Grumman
-                            <br/> Hosted by Black Hills MAC</span>
+                            <span className="block text-2xl lg:text-4xl normal-case">Presented by Northrop Grumman</span>
+                            <span className="block text-2xl lg:text-4xl normal-case">Where AI, Cyber, & Defense Converge</span>
+                            <span className="block text-lg lg:text-2xl normal-case">Hosted by Black Hills MAC</span>
                         </h2>
                         <h2 className="text-2xl lg:text-4xl">
                             Leading The National Defense Discussion
