@@ -61,7 +61,7 @@ export default function Home() {
                         </div>
 
                         <div className="flex flex-wrap w-full">
-                            <NavCard icon={faTicket} title="Registration" url="/register"/>
+                            <NavCard icon={faTicket} title="Registration" url="https://cvent.me/4dNBxg"/>
                             <NavCard icon={faClipboardList} title="Agenda" url="/about#agenda"/>
                             <NavCard icon={faHandshake} title="Exhibitor" url="/exhibitor-information"/>
                             <NavCard icon={faHotel} title="Hotel" url="/hotel-information"/>
