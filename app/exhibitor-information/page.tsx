@@ -64,7 +64,7 @@ export default function About() {
                     {/*<div className="flex align-middle mt-7">
                         <Link
                             className="m-auto bg-primary-900 hover:bg-primary-600 transition-colors font-bold text-primary-100 p-2 px-8 rounded text-2xl uppercase"
-                            href="https://cvent.me/Ng2owB">Register</Link>
+                            href="https://cvent.me/4dNBxg">Register</Link>
                     </div>*/}
 
 

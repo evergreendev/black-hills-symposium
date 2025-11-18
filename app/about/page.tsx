@@ -134,6 +134,16 @@ export default function About() {
                         <div>
                             <span className="font-bold">Featured Speaker:</span> Business / Service Dress
                         </div>
+                        <div className="pt-4">
+                            <a
+                                className="inline-block bg-primary-500 hover:bg-primary-600 transition-colors font-bold text-primary-100 py-2 px-6 rounded text-xl uppercase"
+                                href="https://cvent.me/4dNBxg"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                            >
+                                Purchase Tickets
+                            </a>
+                        </div>
                     </div>
 
                     <h2 className="text-4xl font-bold text-center my-8 text-gray-800 uppercase">Agenda</h2>
@@ -141,6 +151,8 @@ export default function About() {
                         <li>Governor&apos;s Resilience and Infrastructure Task Force (GRIT) (Infrastructure)</li>
                         <li>Counter Unmanned Aerial Systems (CUAS)</li>
                         <li>AI/Cyber Security</li>
+                        <li>Resilience & Reliability, War Game Scenario</li>
+                        <li>Cybersecurity Maturity Model Certification on AI</li>
                         <li>B21 Update</li>
                     </ul>
                     {/*<AgendaExpandable schedule={schedule}/>*/}
