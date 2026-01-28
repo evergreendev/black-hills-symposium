@@ -50,7 +50,7 @@ export default function Home() {
                 <div className="bg-primary-100 bg-opacity-70 w-full flex justify-center pt-28 pb-6">
                     <div className="max-w-screen-xl flex justify-between w-full flex-wrap p-8">
                         <div className="pl-2 w-full pb-1 pt-4 mt-14 mb-14 border-b-2 border-primary-300">
-                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">The 2026 Defense & Industry Symposium will bring together national, regional, and local leaders from industry, the military, and the community to explore the critical role of defense investments in western South Dakota.
+                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">The 2026 Defense & Industry Symposium will bring together national, regional, and local leaders from industry, the military, and the community to explore the critical each play in the national security equation.
                             </p>
                             <p className="mb-4 font-bold font-serif text-3xl text-primary-600">As a 2024 Great American Defense Community (GADC), the Black Hills Region continues to lead in military innovation and community partnerships. This symposium — presented by Northrop Grumman and hosted by the Black Hills Military Coalition (BHMAC) — will highlight how defense investments strengthen both national security and local economies.
                             </p>

@@ -1,107 +1,107 @@
 import Image from "next/image";
 
-import {dateItem} from "@/app/components/Agenda/AgendaExpandable";
-import AgendaExpandable from "@/app/components/Agenda/AgendaExpandable";
 
 export default function About() {
 
+    type timeItem = {
+        time?: string,
+        title?: string,
+        room?: string,
+        items?: any[]
+    }
+
+    type dateItem = {
+        date: string,
+        callout?: boolean,
+        items?: timeItem[]
+    }
+
     const schedule: dateItem[] = [
         {
-            date: "Wednesday, April 8, 2026",
+            date: "",
             items: [
                 {
-                    time: "8:30 a.m.",
-                    title: "Welcome/Opening Session",
-                    room: "Ellsworth A",
-                    items: [
-                        "Join us as we kick off our 2026 Symposium."
-                    ],
+                    title: "SD Governor’s Proclamation w/ opening ceremony & 250th Celebration",
+                    items: []
                 },
                 {
-                    title: "Governor's Resilience and Infrastructure Task Force (GRIT) (Infrastructure)",
-                    time: "9:30 a.m.",
-                    room: "Ellsworth A",
-                    items: [
-                        "Details coming soon"
-                    ]
+                    title: "From Strategy to Action: The SDNG Adjutant General on Infrastructure Resilience",
+                    items: []
                 },
                 {
-                    title: "Connection Break - Foyer",
-                    time: "10:20 a.m."
+                    title: "Resilience Under Fire: A Wargame Outbrief on Attacks Against America’s Critical Infrastructure",
+                    items: []
                 },
                 {
-                    title: "Counter Unmanned Aerial Systems (CUAS)",
-                    time: "10:30 a.m.",
-                    room: "Ellsworth A",
-                    items: [
-                        "Details coming soon"
-                    ]
+                    title: "Lunch/Motivational Speaker - Malcom Chapman - Marines/250th Anniversary",
+                    items: []
                 },
                 {
-                    title: "Connection Break - Foyer",
-                    time: "11:15 a.m."
+                    title: "Partnering with Primes in the AI-Driven Federal Landscape",
+                    items: []
                 },
                 {
-                    title: "Networking Lunch",
-                    time: "12:00 p.m.",
-                    room: "Ellsworth A",
-                    items: [
-                        "Details coming soon"
-                    ]
+                    title: "What Happens When Infrastructure Is Threatened? Inside the Governor’s GRIT Taskforce",
+                    items: []
                 },
                 {
-                    title: "AI/Cyber Security",
-                    time: "1:00 p.m.",
-                    room: "Ellsworth A",
-                    items: [
-                        "Details coming soon"
-                    ]
+                    title: "From Battlefield to Backyard: How Ukraine's Drone War is Redefining Security",
+                    items: []
                 },
                 {
-                    time: "1:50 p.m.",
-                    title: "Connection Break - Foyer"
+                    title: "CMMC in the Age of AI: Compliance, Controls, and Real-World Implications",
+                    items: []
                 },
                 {
-                    title: "B21 Update",
-                    time: "2:00 p.m.",
-                    room: "Ellsworth A",
-                    items: [
-                        "Details coming soon"
-                    ]
+                    title: "Deterrence Delivered: Strategic Bombers, National Security, and the Defense-Industry Partnership",
+                    items: []
                 },
                 {
-                    title: "Connection Break - Foyer",
-                    time: "2:50 p.m."
+                    title: "From BRAC to the B-21: Leadership Insights on America’s Next-Generation Long Range Strike",
+                    items: []
                 },
                 {
-                    title: "Closing Remarks",
-                    time: "4:00 p.m.",
-                    room: "Ellsworth A",
+                    title: "SD Mines Social",
+                    items: []
+                },
+                {
+                    title: "SD Mines Student War Games Camp Rocker",
+                    items: []
+                },
+                {
+                    title: "What Tomorrow’s Engineers Are Building Today: A Drone Demonstration by South Dakota Mines Students",
+                    items: []
+                },
+                {
+                    title: "Fighting Tomorrow's War with Yesterday's Doctrine: The Drone Adaptation Gap - Lt. Gen (Ret) Mary O'Brian",
+                    items: []
+                },
+                {
+                    title: "UAS/C-UAS Panel: Anno.ai CEO, MMS Products CEO",
+                    items: []
+                },
+                {
+                    title: "AI Update from the Nation’s Capital: What Leaders Are Seeing and Planning-US Senator Mike Rounds",
+                    items: []
+                },
+                {
+                    title: "Building the Future Fight: Military Construction Meets Artificial Intelligence",
+                    items: []
+                },
+                {
+                    title: "Closing Speaker - US Senator Mike Rounds",
+                    items: []
+                },
+                {
+                    title: "Counter the Threat: LIVE Fire Drone Defense in Action at Shooting Range",
+                    items: []
+                },
+                {
+                    title: "Next-Gen Flight in Action: LIVE Student Drone Demo from South Dakota Mines at Shooting Range",
                     items: []
                 },
             ],
         },
-        {
-            date: "Thursday, April 9, 2026",
-            items: [
-                {
-                    title: "Welcome/Opening Session",
-                    time: "8:30 a.m.",
-                    room: "Ellsworth A",
-                    items: [
-                        "Details coming soon"
-                    ]
-                },
-                {
-                    title: "Connection Break - Foyer",
-                    time: "9:15 a.m."
-                },
-                {
-                    title: "Event Concludes",
-                    time: "11:30 a.m.",
-                }
-            ]
-        }
     ];
 
 
@@ -146,16 +146,23 @@ export default function About() {
                         </div>
                     </div>
 
+
                     <h2 className="text-4xl font-bold text-center my-8 text-gray-800 uppercase">Agenda</h2>
-                    <ul className="list-disc ml-6 space-y-2">
-                        <li>Governor&apos;s Resilience and Infrastructure Task Force (GRIT) (Infrastructure)</li>
-                        <li>Counter Unmanned Aerial Systems (CUAS)</li>
-                        <li>AI/Cyber Security</li>
-                        <li>Resilience & Reliability, War Game Scenario</li>
-                        <li>Cybersecurity Maturity Model Certification on AI</li>
-                        <li>B21 Update</li>
-                    </ul>
-                    {/*<AgendaExpandable schedule={schedule}/>*/}
+                    <div className="max-w-screen-md mx-auto">
+                        {schedule.map((day) => (
+                            <div key={day.date} className="mb-10">
+                                <h3 className="text-2xl font-bold mb-4 border-b-2 border-primary-500 pb-2">{day.date}</h3>
+                                <ul className="list-disc pl-5 space-y-3">
+                                    {day.items?.map((item, index) => (
+                                        <li key={index} className="text-lg text-gray-700">
+                                            {item.title}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ))}
+                        <p className="mt-8 italic text-gray-600">* Agenda subject to change</p>
+                    </div>
                 </div>
             </div>
         </main>
