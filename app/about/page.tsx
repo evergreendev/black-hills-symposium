@@ -1,105 +1,41 @@
-import Image from "next/image";
+import AgendaExpandable, {dateItem} from "@/app/components/Agenda/AgendaExpandable";
 
 
 export default function About() {
 
-    type timeItem = {
-        time?: string,
-        title?: string,
-        room?: string,
-        items?: any[]
-    }
-
-    type dateItem = {
-        date: string,
-        callout?: boolean,
-        items?: timeItem[]
-    }
-
     const schedule: dateItem[] = [
         {
-            date: "",
+            date: "Wednesday, April 8",
             items: [
-                {
-                    title: "SD Governor’s Proclamation w/ opening ceremony & 250th Celebration",
-                    items: []
-                },
-                {
-                    title: "From Strategy to Action: The SDNG Adjutant General on Infrastructure Resilience",
-                    items: []
-                },
-                {
-                    title: "Resilience Under Fire: A Wargame Outbrief on Attacks Against America’s Critical Infrastructure",
-                    items: []
-                },
-                {
-                    title: "Lunch/Motivational Speaker - Malcom Chapman - Marines/250th Anniversary",
-                    items: []
-                },
-                {
-                    title: "Partnering with Primes in the AI-Driven Federal Landscape",
-                    items: []
-                },
-                {
-                    title: "What Happens When Infrastructure Is Threatened? Inside the Governor’s GRIT Taskforce",
-                    items: []
-                },
-                {
-                    title: "From Battlefield to Backyard: How Ukraine's Drone War is Redefining Security",
-                    items: []
-                },
-                {
-                    title: "CMMC in the Age of AI: Compliance, Controls, and Real-World Implications",
-                    items: []
-                },
-                {
-                    title: "Deterrence Delivered: Strategic Bombers, National Security, and the Defense-Industry Partnership",
-                    items: []
-                },
-                {
-                    title: "From BRAC to the B-21: Leadership Insights on America’s Next-Generation Long Range Strike",
-                    items: []
-                },
-                {
-                    title: "SD Mines Social",
-                    items: []
-                },
-                {
-                    title: "SD Mines Student War Games Camp Rocker",
-                    items: []
-                },
-                {
-                    title: "What Tomorrow’s Engineers Are Building Today: A Drone Demonstration by South Dakota Mines Students",
-                    items: []
-                },
-                {
-                    title: "Fighting Tomorrow's War with Yesterday's Doctrine: The Drone Adaptation Gap - Lt. Gen (Ret) Mary O'Brian",
-                    items: []
-                },
-                {
-                    title: "UAS/C-UAS Panel: Anno.ai CEO, MMS Products CEO",
-                    items: []
-                },
-                {
-                    title: "AI Update from the Nation’s Capital: What Leaders Are Seeing and Planning-US Senator Mike Rounds",
-                    items: []
-                },
-                {
-                    title: "Building the Future Fight: Military Construction Meets Artificial Intelligence",
-                    items: []
-                },
-                {
-                    title: "Closing Speaker - US Senator Mike Rounds",
-                    items: []
-                },
-                {
-                    title: "Counter the Threat: LIVE Fire Drone Defense in Action at Shooting Range",
-                    items: []
-                },
-                {
-                    title: "Next-Gen Flight in Action: LIVE Student Drone Demo from South Dakota Mines at Shooting Range",
-                    items: []
-                },
+                { title: "SD Governor's Proclamation" },
+                { title: "From Strategy to Action", items: ["The SDNG Adjutant General on Infrastructure Resilience"] },
+                { title: "Resilience Under Fire", items: ["A Wargame Outbrief on Attacks Against America's Critical Infrastructure"] },
+                { title: "Malcom Chapman", items: ["Motivational Speaker"] },
+                { title: "Partnering with Primes in the AI-Driven Federal Landscape" },
+                { title: "What Happens When Infrastructure Is Threatened?", items: ["Inside the Governor's GRIT Taskforce"] },
+                { title: "From Battlefield to Backyard", items: ["How Ukraine's Drone War is Redefining Security"] },
+            ],
+        },
+        {
+            date: "Thursday, April 9",
+            items: [
+                { title: "Fighting Tomorrow's War with Yesterday's Doctrine", items: ["The Drone Adaptation Gap"] },
+                { title: "Enabling the Fight", items: ["How the American Defense Industrial Base Is Advancing UAS and Counter-UAS Capabilities for Operational Advantage: Anno.ai CEO, MMS Products CEO"] },
+                { title: "AI & National Security", items: ["A Beltway Perspective"] },
+                { title: "Building the Future Fight", items: ["Military Construction Meets Artificial Intelligence"] },
+                { title: "CMMC in the Age of AI", items: ["Compliance, Controls, and Real World Implications"] },
+                { title: "Deterrence Delivered", items: ["Strategic Bombers, National Security, and the Defense-Industry Partnership"] },
+                { title: "From BRAC to the B-21", items: ["Leadership Insights on America's Next-Generation Long Range Strike"] },
+                { title: "South Dakota Mines Social" },
+                { title: "South Dakota Mines Student War Games Camp Rocker" },
+                { title: "What Tomorrow's Engineers Are Building Today", items: ["A Drone Demonstration by South Dakota Mines Students"] },
+            ],
+        },
+        {
+            date: "Live Shooting Range Demos",
+            items: [
+                { title: "Counter the Threat", items: ["Drone Defense in Action"] },
+                { title: "Next-Gen Flight in Action", items: ["Student Drone Demo from South Dakota Mines"] },
             ],
         },
     ];
@@ -116,25 +52,36 @@ export default function About() {
             </div>
             <div id="agenda" className="w-full flex justify-center px-12 bg-primary-900">
                 <div className="text-primary-900 max-w-screen-xl bg-white p-7">
-                    <div className="space-y-2 mx-auto flex flex-col items-center p-2 bg-primary-100 mb-12 text-center">
-                        <h2 className="font-bold text-3xl md:text-5xl">Defense & Industry Symposium</h2>
-                        <h3 className="text-xl md:text-2xl">Presented by Northrop Grumman</h3>
-                        <h3 className="text-xl md:text-2xl">Where AI, Cyber, & Defense Converge</h3>
-                        <h4 className="text-base md:text-lg">Hosted by Black Hills MAC</h4>
-                        <h4 className="text-lg">April 8-9, 2026</h4>
-                        <div>
-                            <span className="font-bold">Military:</span> UOD
+                    <div className="space-y-2 mx-auto flex flex-col items-center p-4 bg-primary-100 mb-12 text-center">
+                        <h2 className="font-bold text-3xl md:text-5xl uppercase">Defense & Industry Symposium</h2>
+                        <h3 className="text-xl md:text-2xl font-semibold">Presented by Northrop Grumman</h3>
+                        <h3 className="text-xl md:text-2xl italic">"Where AI, Cyber & Defense Converge"</h3>
+                        <div className="text-lg md:text-xl py-2">
+                            <p className="font-bold">April 8-9, 2026</p>
+                            <p>Box Elder Events Center</p>
+                            <p>Box Elder, South Dakota</p>
                         </div>
-                        <div>
-                            <span className="font-bold">Civilian:</span> Business casual
+                        
+                        <p className="max-w-2xl text-base md:text-lg mt-4 text-gray-700">
+                            The 2026 Defense & Industry Symposium will bring together national, regional, and local leaders from industry, the military, and the community to explore the critical role each plays in the national security equation.
+                        </p>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 text-sm md:text-base">
+                            <div>
+                                <span className="font-bold">Military:</span> UOD
+                            </div>
+                            <div>
+                                <span className="font-bold">Civilian:</span> Business casual
+                            </div>
+                            <div>
+                                <span className="font-bold">Panelist:</span> Business casual / UOD (military)
+                            </div>
+                            <div>
+                                <span className="font-bold">Featured Speaker:</span> Business / Service Dress
+                            </div>
                         </div>
-                        <div>
-                            <span className="font-bold">Panelist:</span> Business casual / UOD (military)
-                        </div>
-                        <div>
-                            <span className="font-bold">Featured Speaker:</span> Business / Service Dress
-                        </div>
-                        <div className="pt-4">
+
+                        <div className="pt-6">
                             <a
                                 className="inline-block bg-primary-500 hover:bg-primary-600 transition-colors font-bold text-primary-100 py-2 px-6 rounded text-xl uppercase"
                                 href="https://cvent.me/4dNBxg"
@@ -146,23 +93,30 @@ export default function About() {
                         </div>
                     </div>
 
+                    <div className="w-full max-w-prose  mx-auto mb-12">
+                        <div className="space-y-4">
+                            <h2 className="text-3xl font-bold text-gray-800 border-b-2 border-primary-500 pb-2">Who Should Attend</h2>
+                            <p className="text-lg text-gray-700 leading-relaxed">
+                                This conference is best suited for leaders and professionals involved in national security, critical infrastructure, defense industry, and advanced technology (especially AI, cyber, and drones), plus students and educators in related STEM fields.
+                            </p>
+                            <ul className="list-disc pl-5 space-y-1 text-gray-700">
+                                <li>Governor&apos;s office & state leadership</li>
+                                <li>Emergency management & public safety officials</li>
+                                <li>First responders</li>
+                                <li>National Guard & military leaders</li>
+                                <li>Federal infrastructure, defense & cyber agencies</li>
+                                <li>Defense contractors & industry partners</li>
+                                <li>Critical infrastructure owners/operators</li>
+                                <li>Cyber, IT & compliance leaders</li>
+                                <li>Military, academic & research professionals</li>
+                                <li>Students & civic/economic development leaders</li>
+                            </ul>
+                        </div>
+                    </div>
+
 
                     <h2 className="text-4xl font-bold text-center my-8 text-gray-800 uppercase">Agenda</h2>
-                    <div className="max-w-screen-md mx-auto">
-                        {schedule.map((day) => (
-                            <div key={day.date} className="mb-10">
-                                <h3 className="text-2xl font-bold mb-4 border-b-2 border-primary-500 pb-2">{day.date}</h3>
-                                <ul className="list-disc pl-5 space-y-3">
-                                    {day.items?.map((item, index) => (
-                                        <li key={index} className="text-lg text-gray-700">
-                                            {item.title}
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        ))}
-                        <p className="mt-8 italic text-gray-600">* Agenda subject to change</p>
-                    </div>
+                    <AgendaExpandable schedule={schedule}/>
                 </div>
             </div>
         </main>
