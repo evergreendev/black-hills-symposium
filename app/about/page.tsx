@@ -55,7 +55,7 @@ export default function About() {
                     <div className="space-y-2 mx-auto flex flex-col items-center p-4 bg-primary-100 mb-12 text-center">
                         <h2 className="font-bold text-3xl md:text-5xl uppercase">Defense & Industry Symposium</h2>
                         <h3 className="text-xl md:text-2xl font-semibold">Presented by Northrop Grumman</h3>
-                        <h3 className="text-xl md:text-2xl italic">"Where AI, Cyber & Defense Converge"</h3>
+                        <h3 className="text-xl md:text-2xl italic">Where AI, Cyber & Defense Converge</h3>
                         <div className="text-lg md:text-xl py-2">
                             <p className="font-bold">April 8-9, 2026</p>
                             <p>Box Elder Events Center</p>
