@@ -19,7 +19,7 @@ export default function About() {
                 { time: "2:00 PM", title: "From Battlefield to Backyard: How Ukraine's Drone War is Redefining Security" },
                 { time: "2:00 PM", title: "CMMC in the Age of AI: Compliance, Controls, and Real-World Implications" },
                 { time: "3:00 PM", title: "Deterrence Delivered: Strategic Bombers, National Security, & the Defense-Industry Partnership" },
-                { time: "4:00 PM", title: "From BRAC to the B-21: Leadership Insights on America’s Next-Generation Long Range Strike", items: ["Join an exclusive panel featuring the Ellsworth AFB Commander, a Northrop Grumman executive, leadership from Headquarters Air Force Global Strike Command, and the South Dakota Ellsworth Development Authority as they discuss the journey from Base Realignment and Closure (BRAC) to the cutting-edge B-21 Raider. Get insider perspectives on program progress, strategic impact, and what the future holds for long-range strike capability."] },
+                { time: "4:00 PM", title: "Delivering American Deterrence"},
                 { time: "5:00 PM", title: "SD Mines Social" },
                 { time: "5:15 PM", title: "SD Mines Student War Games Camp Rocker" },
             ],

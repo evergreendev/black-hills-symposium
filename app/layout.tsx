@@ -3,6 +3,7 @@ import "./globals.css";
 import {inter} from './fonts';
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
+import RedirectModal from "@/app/components/RedirectModal";
 import {GoogleAnalytics, GoogleTagManager} from "@next/third-parties/google"
 
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <GoogleAnalytics gaId={"G-0C5VGMKCLG"}/>
         <GoogleTagManager gtmId={"GTM-5SFSXBQ4"}/>
         <body className={`${inter.className} overflow-x-hidden text-white`}>
+        <RedirectModal/>
         <Header/>
         {children}
         <Footer/>
