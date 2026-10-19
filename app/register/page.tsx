@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const metadata = {
     title: "Registration | Defense & Industry Symposium",
-    description: "Get tickets for the Defense & Industry Symposium. Learn more about the event and secure your spot today.",
+    description: "Get tickets for the Defense & Industry Symposium. Tickets on sale soon.",
 };
 
 export default function Register() {
@@ -25,22 +25,15 @@ export default function Register() {
 
                 <div className="text-primary-900 max-w-screen-xl bg-white p-7 -mt-20 relative z-10 shadow-xl">
                     <div className="bg-primary-800 bg-opacity-90 p-6 text-white text-center mb-12">
-                        <h1 className="text-3xl md:text-5xl font-bold">Get Your Tickets</h1>
-                        <div className="mt-4">
-                            <Link
-                                className="inline-block bg-primary-500 hover:bg-primary-600 transition-colors font-bold text-primary-100 py-3 px-8 rounded text-2xl uppercase"
-                                href="https://cvent.me/4dNBxg"
-                            >
-                                Purchase Tickets
-                            </Link>
-                        </div>
+                        <h1 className="text-3xl md:text-5xl font-bold">Tickets On Sale Soon</h1>
+                        <p className="mt-4 text-xl">The ticket link will be posted here when tickets go on sale.</p>
                     </div>
                     <div className="space-y-2 mx-auto flex flex-col items-center p-4 bg-primary-100 mb-12 text-center">
-                        <h2 className="font-bold text-3xl md:text-5xl">Defense & Industry Symposium</h2>
+                        <h2 className="font-bold text-3xl md:text-5xl">Black Hills Defense & Industry Symposium</h2>
                         <h3 className="text-xl md:text-2xl">Presented by Northrop Grumman</h3>
-                        <h3 className="text-xl md:text-2xl">Where AI, Cyber, & Defense Converge</h3>
+                        <h3 className="text-xl md:text-2xl">Next Gen Warfare</h3>
                         <h4 className="text-base md:text-lg">Hosted by Black Hills MAC</h4>
-                        <h4 className="text-lg">April 8-9, 2026</h4>
+                        <h4 className="text-lg">April 19-21, 2026</h4>
                         <div>
                             <span className="font-bold">Military:</span> UOD
                         </div>
@@ -55,18 +48,12 @@ export default function Register() {
                         </div>
                     </div>
 
-                    <h2 className="text-4xl font-bold text-center my-8 text-gray-800 uppercase">Agenda</h2>
-                    <ul className="list-disc ml-6 space-y-2">
-                        <li>Governor&apos;s Resilience and Infrastructure Task Force (GRIT) (Infrastructure)</li>
-                        <li>Counter Unmanned Aerial Systems (CUAS)</li>
-                        <li>AI/Cyber Security</li>
-                        <li>Resilience & Reliability, War Game Scenario</li>
-                        <li>Cybersecurity Maturity Model Certification on AI</li>
-                        <li>B21 Update</li>
-                    </ul>
+                    <h2 className="text-4xl font-bold text-center my-8 text-gray-800 uppercase">2027 Agenda</h2>
+                    <p className="text-center text-xl">Coming Soon</p>
+                    <p className="text-center mt-4"><Link href="/2026-about#agenda" className="underline">View the 2026 agenda</Link></p>
 
                     <div className="mt-10 text-center">
-                        <p className="text-xl font-semibold">Ready to join us?</p>
+                        <p className="text-xl font-semibold">Stay tuned for ticket updates.</p>
                         <p className="text-sm mt-2">Have questions? <Link
                             href="mailto:tif.robertson@ellsworthauthority.org" className="underline">Contact us</Link>.
                         </p>

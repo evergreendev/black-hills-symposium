@@ -18,8 +18,8 @@ type item = {
 const navArr: {item: item, subItems?: item[]}[] = [
     {
         item: {
-            title: "Register",
-            url: "https://cvent.me/4dNBxg"
+            title: "Tickets",
+            url: "/register"
         }
     },
     {
@@ -57,8 +57,12 @@ const navArr: {item: item, subItems?: item[]}[] = [
         },
         subItems:[
             {
-                title: "2026 Symposium",
+                title: "2027 Symposium",
                 url: "/about"
+            },
+            {
+                title: "2026 Symposium",
+                url: "/2026-about"
             },
             {
                 title: "2025 Symposium",
@@ -95,9 +99,9 @@ const Header = () => {
                         <Image className="p-1 xl:absolute w-24 h-24 sm:h-auto sm:w-40 left-0 mr-7 z-20" src={logoImg}
                                alt=""/>
                         <h1 className={`${inika.className} text-3xl pt-2.5 xl:text-4xl font-bold pr-10 sm:pr-0`}>
-                            <span className="block text-2xl sm:text-3xl xl:text-4xl">Defense & Industry Symposium</span>
+                            <span className="block text-2xl sm:text-3xl xl:text-4xl">Black Hills Defense & Industry Symposium</span>
                             <span className={`block text-base sm:text-lg`}>Presented by Northrop Grumman</span>
-                            <span className={`block text-base sm:text-lg`}>Where AI, Cyber, & Defense Converge</span>
+                            <span className={`block text-base sm:text-lg`}>Next Gen Warfare</span>
                             <span className={`block text-sm`}>Hosted by Black Hills MAC</span>
                         </h1>
                     </Link>

@@ -20,25 +20,8 @@ export default function About() {
                         <p>
                             We are excited to work with The Box Elder Events Center to host guests during the 2026 Defense & Industry Symposium.
                         </p>
-                        <p>
-                            To book, use the link below or contact the Courtyard at <Link className="text-nowrap" href="tel:605-791-0945">(605) 791-0945</Link>, mention “2026 Defense & Industry Symposium” when booking.
-                        </p>
-                        <p>
-                            You will find the information for your online reservation link below.
-                        </p>
-                        <p>
-                            <Link
-                                href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1757602875230&key=CORP&app=resvlink"
-                                className="underline text-primary-700 hover:text-primary-600"
-                            >
-                                Book your corporate rate for Black Hills Military Advisory Coalition
-                            </Link>
-                        </p>
-                        <p>
-                            Participating properties:
-                            <br />
-                            Courtyard by Marriott Rapid City
-                        </p>
+                        <p className="font-bold">Hotel Booking Link Coming Soon</p>
+                        <p>Reservation details will be posted here once the booking link is available from The Box Elder Events Center.</p>
                         <p>
                             Parking is free and conveniently located near The Box Elder Events Center.
                         </p>

@@ -18,7 +18,7 @@ export default function About() {
                 <div className="max-w-screen-md w-full text-primary-900 text-xl">
                     <h2 className="font-bold text-5xl mb-3 font-serif">Exhibitor Information</h2>
                     <p className="max-w-prose m-auto text-primary-500 text-3xl">
-                        We are pleased to invite you to participate as a vendor at the 2026 Defense & Industry Symposium, Presented by Northrop Gruman, hosted by the BH MAC, taking place April 8-9, 2026 at The Box Elder Events Center.
+                        We are pleased to invite you to participate as a vendor at the 2026 Defense & Industry Symposium, Presented by Northrop Grumman, hosted by the BH MAC, taking place April 19-21, 2026 at The Box Elder Events Center.
                     </p>
                 </div>
             </div>
