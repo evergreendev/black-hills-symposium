@@ -18,7 +18,7 @@ export default function About() {
                 <div className="max-w-screen-md w-full text-primary-900 text-xl">
                     <h2 className="font-bold text-5xl mb-3 font-serif">Exhibitor Information</h2>
                     <p className="max-w-prose m-auto text-primary-500 text-3xl">
-                        We are pleased to invite you to participate as a vendor at the 2026 Defense & Industry Symposium, Presented by Northrop Grumman, hosted by the BH MAC, taking place April 19-21, 2026 at The Box Elder Events Center.
+                        We are pleased to invite you to participate as a vendor at the 2027 Defense & Industry Symposium, Presented by Northrop Grumman, hosted by the BH MAC, taking place April 19-21, 2027 at The Box Elder Events Center.
                     </p>
                 </div>
             </div>
@@ -64,7 +64,7 @@ export default function About() {
                     {/*<div className="flex align-middle mt-7">
                         <Link
                             className="m-auto bg-primary-900 hover:bg-primary-600 transition-colors font-bold text-primary-100 p-2 px-8 rounded text-2xl uppercase"
-                            href="https://cvent.me/4dNBxg">Register</Link>
+                            href="https://cvent.me/w0dnQo">Register</Link>
                     </div>*/}
 
 

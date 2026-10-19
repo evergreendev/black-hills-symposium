@@ -8,7 +8,7 @@ import { faTicket, faClipboardList, faHandshake, faHotel, faMapLocationDot } fro
 
 export const metadata: Metadata = {
     title: "Black Hills Defense & Industry Symposium presented by Northrop Grumman",
-    description: "The Defense and Industry Symposium is coming to The Box Elder Events Center, April 19-21, 2026. This annual event will bring leaders of academia, research, industry, military and the Black Hills communities together for meaningful dialogue on the importance of defense investment in western South Dakota. Leaders will discuss how attendees can contribute to solutions for stronger national defense and bolstered regional economic development."
+    description: "The Defense and Industry Symposium is coming to The Box Elder Events Center, April 19-21, 2027. This annual event will bring leaders of academia, research, industry, military and the Black Hills communities together for meaningful dialogue on the importance of defense investment in western South Dakota. Leaders will discuss how attendees can contribute to solutions for stronger national defense and bolstered regional economic development."
 }
 
 export default function Home() {
@@ -35,7 +35,7 @@ export default function Home() {
                         </h2>
                     </div>
                     <div className="flex flex-col justify-center bg-gray-100 text-primary-600 p-4 lg:px-10">
-                        <h3 className="text-3xl mb-1 lg:text-5xl font-bold lg:mb-4">April 19-21, 2026</h3>
+                        <h3 className="text-3xl mb-1 lg:text-5xl font-bold lg:mb-4">April 19-21, 2027</h3>
                         <Link className="text-2xl lg:text-3xl hover:bg-primary-100 transition-all"
                               href="https://www.google.com/maps/dir//The+Box+Elder+Events+Center,+631+Watiki+Way,+Box+Elder,+SD+57719/@44.0921733,-103.2723344,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x877d67e28838e8db:0x72d6c280514273be!2m2!1d-103.1460223!2d44.1000482?entry=ttu">
                             <h3 className="font-bold">The Box Elder Events Center</h3>
@@ -50,18 +50,18 @@ export default function Home() {
                 <div className="bg-primary-100 bg-opacity-70 w-full flex justify-center pt-28 pb-6">
                     <div className="max-w-screen-xl flex justify-between w-full flex-wrap p-8">
                         <div className="pl-2 w-full pb-1 pt-4 mt-14 mb-14 border-b-2 border-primary-300">
-                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">The 2026 Defense & Industry Symposium will bring together national, regional, and local leaders from industry, the military, and the community to explore the critical role each plays in the national security equation.
+                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">The 2027 Defense & Industry Symposium will bring together national, regional, and local leaders from industry, the military, and the community to explore the critical role each plays in the national security equation.
                             </p>
                             <p className="mb-4 font-bold font-serif text-3xl text-primary-600">As a 2024 Great American Defense Community (GADC), the Black Hills Region continues to lead in military innovation and community partnerships. This symposium — presented by Northrop Grumman and hosted by the Black Hills Military Coalition (BHMAC) — will highlight how defense investments strengthen both national security and local economies.
                             </p>
-                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">Taking place April 19-21, 2026, in Box Elder, South Dakota, the event will feature insightful panel discussions, inspiring keynote speakers, and valuable networking opportunities, all focused on advancing collaboration between defense and industry.
+                            <p className="mb-4 font-bold font-serif text-3xl text-primary-600">Taking place April 19-21, 2027, in Box Elder, South Dakota, the event will feature insightful panel discussions, inspiring keynote speakers, and valuable networking opportunities, all focused on advancing collaboration between defense and industry.
                             </p>
                             <p className="mb-4 font-bold font-serif text-3xl text-primary-600">Don’t miss this opportunity to connect, collaborate, and contribute to the continued growth and strength of the Black Hills defense community.
                             </p>
                         </div>
 
                         <div className="flex flex-wrap w-full">
-                            <NavCard icon={faTicket} title="Tickets On Sale Soon" url="/register"/>
+                            <NavCard icon={faTicket} title="Tickets" url="https://cvent.me/w0dnQo"/>
                             <NavCard icon={faClipboardList} title="2026 Agenda" url="/2026-about#agenda"/>
                             <NavCard icon={faClipboardList} title="2027 Agenda" url="/about#agenda"/>
                             <NavCard icon={faHandshake} title="Exhibitor" url="/exhibitor-information"/>

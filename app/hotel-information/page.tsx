@@ -18,10 +18,10 @@ export default function About() {
                     <div className="w-full max-w-prose text-primary-900 text-xl space-y-3.5">
                         <h2 className="font-bold text-5xl mb-3 font-serif">Hotel Information</h2>
                         <p>
-                            We are excited to work with The Box Elder Events Center to host guests during the 2026 Defense & Industry Symposium.
+                            We are excited to work with The Box Elder Events Center to host guests during the 2027 Defense & Industry Symposium.
                         </p>
-                        <p className="font-bold">Hotel Booking Link Coming Soon</p>
-                        <p>Reservation details will be posted here once the booking link is available from The Box Elder Events Center.</p>
+                        <p><Link href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1769648142591&key=CORP&app=resvlink" className="inline-block bg-primary-700 hover:bg-primary-600 text-white font-bold py-3 px-6 rounded">Book Your Hotel</Link></p>
+                        <p>Use the link above to reserve your stay at the symposium hotel rate.</p>
                         <p>
                             Parking is free and conveniently located near The Box Elder Events Center.
                         </p>

@@ -19,7 +19,7 @@ const navArr: {item: item, subItems?: item[]}[] = [
     {
         item: {
             title: "Tickets",
-            url: "/register"
+            url: "https://cvent.me/w0dnQo"
         }
     },
     {

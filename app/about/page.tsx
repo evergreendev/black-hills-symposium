@@ -1,7 +1,4 @@
 export default function About() {
-
-
-
     return (
         <main className="flex min-h-screen flex-col items-center overflow-x-hidden relative">
             <div className="bg-dark w-full h-24 opacity-80 absolute top-0 z-10"/>
@@ -18,7 +15,7 @@ export default function About() {
                         <h3 className="text-xl md:text-2xl font-semibold">Presented by Northrop Grumman</h3>
                         <h3 className="text-xl md:text-2xl italic">Next Gen Warfare</h3>
                         <div className="text-lg md:text-xl py-2">
-                            <p className="font-bold">April 19-21, 2026</p>
+                            <p className="font-bold">April 19-21, 2027</p>
                             <p>Box Elder Events Center</p>
                             <p>Box Elder, South Dakota</p>
                         </div>
@@ -68,7 +65,19 @@ export default function About() {
 
 
                     <h2 className="text-4xl font-bold text-center my-8 text-gray-800 uppercase">2027 Agenda</h2>
-                    <p className="text-3xl font-bold text-center mb-8">Coming Soon</p>
+                    <section aria-label="2027 agenda overview" className="max-w-4xl mx-auto text-center space-y-6 pb-8">
+                        <h3 className="text-2xl md:text-4xl font-bold">The next war won&rsquo;t look like the last &mdash; Next Generation Warfare</h3>
+                        <p className="text-xl md:text-2xl">Don&rsquo;t just watch the future. Be in the room.</p>
+                        <p className="text-xl">Three days. Five critical conversations. One look at the future of national security.</p>
+                        <ul className="grid sm:grid-cols-2 gap-4 text-xl md:text-2xl font-bold">
+                            {["INSTALLATIONS", "WARFIGHTING", "INNOVATION", "HOME", "DETERRENCE"].map(topic => (
+                                <li key={topic} className="bg-primary-100 border-l-4 border-primary-500 p-5">{topic}</li>
+                            ))}
+                        </ul>
+                        <p className="text-lg md:text-xl font-semibold">B-21 &bull; AI &bull; GRAY-ZONE CONFLICT &bull; MILITARY FAMILIES &bull; FUTURE THREATS</p>
+                        <p className="text-2xl md:text-3xl font-bold">THE FUTURE OF DEFENSE IS BEING BUILT RIGHT NOW!</p>
+                        <p className="italic text-sm">*Agenda subject to change.</p>
+                    </section>
                 </div>
             </div>
         </main>

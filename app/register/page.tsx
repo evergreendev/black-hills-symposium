@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const metadata = {
     title: "Registration | Defense & Industry Symposium",
-    description: "Get tickets for the Defense & Industry Symposium. Tickets on sale soon.",
+    description: "Get tickets for the Defense & Industry Symposium. Register now for the symposium.",
 };
 
 export default function Register() {
@@ -25,15 +25,15 @@ export default function Register() {
 
                 <div className="text-primary-900 max-w-screen-xl bg-white p-7 -mt-20 relative z-10 shadow-xl">
                     <div className="bg-primary-800 bg-opacity-90 p-6 text-white text-center mb-12">
-                        <h1 className="text-3xl md:text-5xl font-bold">Tickets On Sale Soon</h1>
-                        <p className="mt-4 text-xl">The ticket link will be posted here when tickets go on sale.</p>
+                        <h1 className="text-3xl md:text-5xl font-bold">Get Your Tickets</h1>
+                        <Link href="https://cvent.me/w0dnQo" className="inline-block mt-6 bg-primary-500 hover:bg-primary-600 transition-colors font-bold text-primary-100 py-3 px-8 rounded text-2xl">Register Now</Link>
                     </div>
                     <div className="space-y-2 mx-auto flex flex-col items-center p-4 bg-primary-100 mb-12 text-center">
                         <h2 className="font-bold text-3xl md:text-5xl">Black Hills Defense & Industry Symposium</h2>
                         <h3 className="text-xl md:text-2xl">Presented by Northrop Grumman</h3>
                         <h3 className="text-xl md:text-2xl">Next Gen Warfare</h3>
                         <h4 className="text-base md:text-lg">Hosted by Black Hills MAC</h4>
-                        <h4 className="text-lg">April 19-21, 2026</h4>
+                        <h4 className="text-lg">April 19-21, 2027</h4>
                         <div>
                             <span className="font-bold">Military:</span> UOD
                         </div>
@@ -49,11 +49,11 @@ export default function Register() {
                     </div>
 
                     <h2 className="text-4xl font-bold text-center my-8 text-gray-800 uppercase">2027 Agenda</h2>
-                    <p className="text-center text-xl">Coming Soon</p>
+                    <p className="text-center text-xl"><Link href="/about#agenda" className="underline">View the 2027 agenda</Link></p>
                     <p className="text-center mt-4"><Link href="/2026-about#agenda" className="underline">View the 2026 agenda</Link></p>
 
                     <div className="mt-10 text-center">
-                        <p className="text-xl font-semibold">Stay tuned for ticket updates.</p>
+                        <p className="text-xl font-semibold">Don&rsquo;t just watch the future. Be in the room.</p>
                         <p className="text-sm mt-2">Have questions? <Link
                             href="mailto:tif.robertson@ellsworthauthority.org" className="underline">Contact us</Link>.
                         </p>
