@@ -20,7 +20,7 @@ export default function About() {
                         <p>
                             We are excited to work with The Box Elder Events Center to host guests during the 2027 Defense & Industry Symposium.
                         </p>
-                        <p><Link href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1769648142591&key=CORP&app=resvlink" className="inline-block bg-primary-700 hover:bg-primary-600 text-white font-bold py-3 px-6 rounded">Book Your Hotel</Link></p>
+                        <p><Link href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.marriott.com_event-2Dreservations_reservation-2Dlink.mi-3Fid-3D1769648142591-26key-3DCORP-26app-3Dresvlink&d=DwMFAg&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=lokX0gfhaxKZP2QQCHQlGco2VkY5cwuYvPw6GCP4FGw&m=sumrvZzaku9zpMiyX7aIWdXK0ez6zopxPDr-ZsWF6FH18IAkWxm4ngNgbNb4z3km&s=4QQV6wiPqH7pkU0Zqya5fbU-NskU_ZgysV830fKG66E&e=" className="inline-block bg-primary-700 hover:bg-primary-600 text-white font-bold py-3 px-6 rounded">Book Your Hotel</Link></p>
                         <p>Use the link above to reserve your stay at the symposium hotel rate.</p>
                         <p>
                             Parking is free and conveniently located near The Box Elder Events Center.
