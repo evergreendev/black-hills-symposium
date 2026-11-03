@@ -4,6 +4,7 @@ import {inter} from './fonts';
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import {GoogleAnalytics, GoogleTagManager} from "@next/third-parties/google"
+import RedirectModal from "@/app/components/RedirectModal";
 
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({
         <GoogleTagManager gtmId={"GTM-5SFSXBQ4"}/>
         <body className={`${inter.className} overflow-x-hidden text-white`}>
         <Header/>
+        <RedirectModal/>
         {children}
         <Footer/>
         </body>
